@@ -1,0 +1,1112 @@
+# Compile of MultiplexTB.vhd failed with 6 errors.
+# Compile of MultiplexDesign.vhd failed with 1 errors.
+# Compile of MultiplexTB.vhd failed with 4 errors.
+# Compile of MultiplexTB.vhd failed with 3 errors.
+# Compile of MultiplexTB.vhd failed with 1 errors.
+# Compile of MultiplexTB.vhd failed with 1 errors.
+# Compile of MultiplexTB.vhd was successful.
+# Compile of MultiplexDesign.vhd failed with 1 errors.
+# Compile of MultiplexDesign.vhd failed with 1 errors.
+# Compile of MultiplexDesign.vhd failed with 1 errors.
+# Compile of MultiplexDesign.vhd failed with 1 errors.
+# Compile of MultiplexDesign.vhd failed with 1 errors.
+# Compile of MultiplexDesign.vhd failed with 1 errors.
+# Compile of MultiplexDesign.vhd was successful.
+vsim -gui work.muxnbits2vers1 work.mymuxnbits2vers1testbench
+# vsim -gui work.muxnbits2vers1 work.mymuxnbits2vers1testbench 
+# Start time: 14:57:37 on Feb 28,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.muxnbits2vers1(muxnbits2vers1_dataflow)
+# Loading ieee.numeric_std(body)
+# Loading work.mymuxnbits2vers1testbench(mymuxnbits2vers1testbench_arch)
+add wave -position insertpoint sim:/mymuxnbits2vers1testbench/*
+run -all
+# ** Note: sel_in=0 | el=0 | e2=0 || s1 = 0
+#    Time: 100 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=0 | e2=0 || s1 = 0
+#    Time: 200 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=0 | e2=1 || s1 = 0
+#    Time: 300 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=0 | e2=1 || s1 = 1
+#    Time: 400 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=0 | e2=2 || s1 = 0
+#    Time: 500 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=0 | e2=2 || s1 = 2
+#    Time: 600 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=0 | e2=3 || s1 = 0
+#    Time: 700 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=0 | e2=3 || s1 = 3
+#    Time: 800 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=0 | e2=4 || s1 = 0
+#    Time: 900 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=0 | e2=4 || s1 = 4
+#    Time: 1 ms  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=0 | e2=5 || s1 = 0
+#    Time: 1100 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=0 | e2=5 || s1 = 5
+#    Time: 1200 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=0 | e2=6 || s1 = 0
+#    Time: 1300 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=0 | e2=6 || s1 = 6
+#    Time: 1400 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=0 | e2=7 || s1 = 0
+#    Time: 1500 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=0 | e2=7 || s1 = 7
+#    Time: 1600 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=0 | e2=8 || s1 = 0
+#    Time: 1700 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=0 | e2=8 || s1 = 8
+#    Time: 1800 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=0 | e2=9 || s1 = 0
+#    Time: 1900 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=0 | e2=9 || s1 = 9
+#    Time: 2 ms  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=0 | e2=10 || s1 = 0
+#    Time: 2100 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=0 | e2=10 || s1 = 10
+#    Time: 2200 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=0 | e2=11 || s1 = 0
+#    Time: 2300 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=0 | e2=11 || s1 = 11
+#    Time: 2400 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=0 | e2=12 || s1 = 0
+#    Time: 2500 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=0 | e2=12 || s1 = 12
+#    Time: 2600 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=0 | e2=13 || s1 = 0
+#    Time: 2700 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=0 | e2=13 || s1 = 13
+#    Time: 2800 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=0 | e2=14 || s1 = 0
+#    Time: 2900 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=0 | e2=14 || s1 = 14
+#    Time: 3 ms  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=0 | e2=15 || s1 = 0
+#    Time: 3100 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=0 | e2=15 || s1 = 15
+#    Time: 3200 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=1 | e2=0 || s1 = 1
+#    Time: 3300 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=1 | e2=0 || s1 = 0
+#    Time: 3400 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=1 | e2=1 || s1 = 1
+#    Time: 3500 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=1 | e2=1 || s1 = 1
+#    Time: 3600 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=1 | e2=2 || s1 = 1
+#    Time: 3700 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=1 | e2=2 || s1 = 2
+#    Time: 3800 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=1 | e2=3 || s1 = 1
+#    Time: 3900 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=1 | e2=3 || s1 = 3
+#    Time: 4 ms  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=1 | e2=4 || s1 = 1
+#    Time: 4100 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=1 | e2=4 || s1 = 4
+#    Time: 4200 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=1 | e2=5 || s1 = 1
+#    Time: 4300 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=1 | e2=5 || s1 = 5
+#    Time: 4400 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=1 | e2=6 || s1 = 1
+#    Time: 4500 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=1 | e2=6 || s1 = 6
+#    Time: 4600 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=1 | e2=7 || s1 = 1
+#    Time: 4700 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=1 | e2=7 || s1 = 7
+#    Time: 4800 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=1 | e2=8 || s1 = 1
+#    Time: 4900 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=1 | e2=8 || s1 = 8
+#    Time: 5 ms  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=1 | e2=9 || s1 = 1
+#    Time: 5100 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=1 | e2=9 || s1 = 9
+#    Time: 5200 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=1 | e2=10 || s1 = 1
+#    Time: 5300 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=1 | e2=10 || s1 = 10
+#    Time: 5400 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=1 | e2=11 || s1 = 1
+#    Time: 5500 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=1 | e2=11 || s1 = 11
+#    Time: 5600 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=1 | e2=12 || s1 = 1
+#    Time: 5700 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=1 | e2=12 || s1 = 12
+#    Time: 5800 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=1 | e2=13 || s1 = 1
+#    Time: 5900 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=1 | e2=13 || s1 = 13
+#    Time: 6 ms  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=1 | e2=14 || s1 = 1
+#    Time: 6100 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=1 | e2=14 || s1 = 14
+#    Time: 6200 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=1 | e2=15 || s1 = 1
+#    Time: 6300 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=1 | e2=15 || s1 = 15
+#    Time: 6400 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=2 | e2=0 || s1 = 2
+#    Time: 6500 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=2 | e2=0 || s1 = 0
+#    Time: 6600 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=2 | e2=1 || s1 = 2
+#    Time: 6700 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=2 | e2=1 || s1 = 1
+#    Time: 6800 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=2 | e2=2 || s1 = 2
+#    Time: 6900 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=2 | e2=2 || s1 = 2
+#    Time: 7 ms  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=2 | e2=3 || s1 = 2
+#    Time: 7100 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=2 | e2=3 || s1 = 3
+#    Time: 7200 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=2 | e2=4 || s1 = 2
+#    Time: 7300 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=2 | e2=4 || s1 = 4
+#    Time: 7400 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=2 | e2=5 || s1 = 2
+#    Time: 7500 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=2 | e2=5 || s1 = 5
+#    Time: 7600 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=2 | e2=6 || s1 = 2
+#    Time: 7700 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=2 | e2=6 || s1 = 6
+#    Time: 7800 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=2 | e2=7 || s1 = 2
+#    Time: 7900 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=2 | e2=7 || s1 = 7
+#    Time: 8 ms  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=2 | e2=8 || s1 = 2
+#    Time: 8100 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=2 | e2=8 || s1 = 8
+#    Time: 8200 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=2 | e2=9 || s1 = 2
+#    Time: 8300 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=2 | e2=9 || s1 = 9
+#    Time: 8400 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=2 | e2=10 || s1 = 2
+#    Time: 8500 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=2 | e2=10 || s1 = 10
+#    Time: 8600 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=2 | e2=11 || s1 = 2
+#    Time: 8700 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=2 | e2=11 || s1 = 11
+#    Time: 8800 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=2 | e2=12 || s1 = 2
+#    Time: 8900 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=2 | e2=12 || s1 = 12
+#    Time: 9 ms  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=2 | e2=13 || s1 = 2
+#    Time: 9100 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=2 | e2=13 || s1 = 13
+#    Time: 9200 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=2 | e2=14 || s1 = 2
+#    Time: 9300 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=2 | e2=14 || s1 = 14
+#    Time: 9400 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=2 | e2=15 || s1 = 2
+#    Time: 9500 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=2 | e2=15 || s1 = 15
+#    Time: 9600 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=3 | e2=0 || s1 = 3
+#    Time: 9700 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=3 | e2=0 || s1 = 0
+#    Time: 9800 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=3 | e2=1 || s1 = 3
+#    Time: 9900 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=3 | e2=1 || s1 = 1
+#    Time: 10 ms  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=3 | e2=2 || s1 = 3
+#    Time: 10100 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=3 | e2=2 || s1 = 2
+#    Time: 10200 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=3 | e2=3 || s1 = 3
+#    Time: 10300 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=3 | e2=3 || s1 = 3
+#    Time: 10400 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=3 | e2=4 || s1 = 3
+#    Time: 10500 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=3 | e2=4 || s1 = 4
+#    Time: 10600 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=3 | e2=5 || s1 = 3
+#    Time: 10700 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=3 | e2=5 || s1 = 5
+#    Time: 10800 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=3 | e2=6 || s1 = 3
+#    Time: 10900 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=3 | e2=6 || s1 = 6
+#    Time: 11 ms  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=3 | e2=7 || s1 = 3
+#    Time: 11100 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=3 | e2=7 || s1 = 7
+#    Time: 11200 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=3 | e2=8 || s1 = 3
+#    Time: 11300 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=3 | e2=8 || s1 = 8
+#    Time: 11400 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=3 | e2=9 || s1 = 3
+#    Time: 11500 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=3 | e2=9 || s1 = 9
+#    Time: 11600 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=3 | e2=10 || s1 = 3
+#    Time: 11700 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=3 | e2=10 || s1 = 10
+#    Time: 11800 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=3 | e2=11 || s1 = 3
+#    Time: 11900 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=3 | e2=11 || s1 = 11
+#    Time: 12 ms  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=3 | e2=12 || s1 = 3
+#    Time: 12100 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=3 | e2=12 || s1 = 12
+#    Time: 12200 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=3 | e2=13 || s1 = 3
+#    Time: 12300 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=3 | e2=13 || s1 = 13
+#    Time: 12400 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=3 | e2=14 || s1 = 3
+#    Time: 12500 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=3 | e2=14 || s1 = 14
+#    Time: 12600 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=3 | e2=15 || s1 = 3
+#    Time: 12700 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=3 | e2=15 || s1 = 15
+#    Time: 12800 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=4 | e2=0 || s1 = 4
+#    Time: 12900 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=4 | e2=0 || s1 = 0
+#    Time: 13 ms  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=4 | e2=1 || s1 = 4
+#    Time: 13100 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=4 | e2=1 || s1 = 1
+#    Time: 13200 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=4 | e2=2 || s1 = 4
+#    Time: 13300 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=4 | e2=2 || s1 = 2
+#    Time: 13400 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=4 | e2=3 || s1 = 4
+#    Time: 13500 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=4 | e2=3 || s1 = 3
+#    Time: 13600 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=4 | e2=4 || s1 = 4
+#    Time: 13700 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=4 | e2=4 || s1 = 4
+#    Time: 13800 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=4 | e2=5 || s1 = 4
+#    Time: 13900 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=4 | e2=5 || s1 = 5
+#    Time: 14 ms  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=4 | e2=6 || s1 = 4
+#    Time: 14100 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=4 | e2=6 || s1 = 6
+#    Time: 14200 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=4 | e2=7 || s1 = 4
+#    Time: 14300 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=4 | e2=7 || s1 = 7
+#    Time: 14400 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=4 | e2=8 || s1 = 4
+#    Time: 14500 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=4 | e2=8 || s1 = 8
+#    Time: 14600 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=4 | e2=9 || s1 = 4
+#    Time: 14700 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=4 | e2=9 || s1 = 9
+#    Time: 14800 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=4 | e2=10 || s1 = 4
+#    Time: 14900 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=4 | e2=10 || s1 = 10
+#    Time: 15 ms  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=4 | e2=11 || s1 = 4
+#    Time: 15100 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=4 | e2=11 || s1 = 11
+#    Time: 15200 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=4 | e2=12 || s1 = 4
+#    Time: 15300 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=4 | e2=12 || s1 = 12
+#    Time: 15400 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=4 | e2=13 || s1 = 4
+#    Time: 15500 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=4 | e2=13 || s1 = 13
+#    Time: 15600 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=4 | e2=14 || s1 = 4
+#    Time: 15700 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=4 | e2=14 || s1 = 14
+#    Time: 15800 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=4 | e2=15 || s1 = 4
+#    Time: 15900 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=4 | e2=15 || s1 = 15
+#    Time: 16 ms  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=5 | e2=0 || s1 = 5
+#    Time: 16100 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=5 | e2=0 || s1 = 0
+#    Time: 16200 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=5 | e2=1 || s1 = 5
+#    Time: 16300 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=5 | e2=1 || s1 = 1
+#    Time: 16400 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=5 | e2=2 || s1 = 5
+#    Time: 16500 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=5 | e2=2 || s1 = 2
+#    Time: 16600 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=5 | e2=3 || s1 = 5
+#    Time: 16700 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=5 | e2=3 || s1 = 3
+#    Time: 16800 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=5 | e2=4 || s1 = 5
+#    Time: 16900 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=5 | e2=4 || s1 = 4
+#    Time: 17 ms  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=5 | e2=5 || s1 = 5
+#    Time: 17100 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=5 | e2=5 || s1 = 5
+#    Time: 17200 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=5 | e2=6 || s1 = 5
+#    Time: 17300 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=5 | e2=6 || s1 = 6
+#    Time: 17400 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=5 | e2=7 || s1 = 5
+#    Time: 17500 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=5 | e2=7 || s1 = 7
+#    Time: 17600 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=5 | e2=8 || s1 = 5
+#    Time: 17700 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=5 | e2=8 || s1 = 8
+#    Time: 17800 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=5 | e2=9 || s1 = 5
+#    Time: 17900 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=5 | e2=9 || s1 = 9
+#    Time: 18 ms  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=5 | e2=10 || s1 = 5
+#    Time: 18100 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=5 | e2=10 || s1 = 10
+#    Time: 18200 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=5 | e2=11 || s1 = 5
+#    Time: 18300 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=5 | e2=11 || s1 = 11
+#    Time: 18400 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=5 | e2=12 || s1 = 5
+#    Time: 18500 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=5 | e2=12 || s1 = 12
+#    Time: 18600 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=5 | e2=13 || s1 = 5
+#    Time: 18700 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=5 | e2=13 || s1 = 13
+#    Time: 18800 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=5 | e2=14 || s1 = 5
+#    Time: 18900 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=5 | e2=14 || s1 = 14
+#    Time: 19 ms  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=5 | e2=15 || s1 = 5
+#    Time: 19100 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=5 | e2=15 || s1 = 15
+#    Time: 19200 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=6 | e2=0 || s1 = 6
+#    Time: 19300 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=6 | e2=0 || s1 = 0
+#    Time: 19400 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=6 | e2=1 || s1 = 6
+#    Time: 19500 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=6 | e2=1 || s1 = 1
+#    Time: 19600 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=6 | e2=2 || s1 = 6
+#    Time: 19700 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=6 | e2=2 || s1 = 2
+#    Time: 19800 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=6 | e2=3 || s1 = 6
+#    Time: 19900 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=6 | e2=3 || s1 = 3
+#    Time: 20 ms  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=6 | e2=4 || s1 = 6
+#    Time: 20100 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=6 | e2=4 || s1 = 4
+#    Time: 20200 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=6 | e2=5 || s1 = 6
+#    Time: 20300 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=6 | e2=5 || s1 = 5
+#    Time: 20400 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=6 | e2=6 || s1 = 6
+#    Time: 20500 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=6 | e2=6 || s1 = 6
+#    Time: 20600 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=6 | e2=7 || s1 = 6
+#    Time: 20700 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=6 | e2=7 || s1 = 7
+#    Time: 20800 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=6 | e2=8 || s1 = 6
+#    Time: 20900 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=6 | e2=8 || s1 = 8
+#    Time: 21 ms  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=6 | e2=9 || s1 = 6
+#    Time: 21100 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=6 | e2=9 || s1 = 9
+#    Time: 21200 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=6 | e2=10 || s1 = 6
+#    Time: 21300 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=6 | e2=10 || s1 = 10
+#    Time: 21400 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=6 | e2=11 || s1 = 6
+#    Time: 21500 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=6 | e2=11 || s1 = 11
+#    Time: 21600 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=6 | e2=12 || s1 = 6
+#    Time: 21700 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=6 | e2=12 || s1 = 12
+#    Time: 21800 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=6 | e2=13 || s1 = 6
+#    Time: 21900 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=6 | e2=13 || s1 = 13
+#    Time: 22 ms  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=6 | e2=14 || s1 = 6
+#    Time: 22100 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=6 | e2=14 || s1 = 14
+#    Time: 22200 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=6 | e2=15 || s1 = 6
+#    Time: 22300 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=6 | e2=15 || s1 = 15
+#    Time: 22400 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=7 | e2=0 || s1 = 7
+#    Time: 22500 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=7 | e2=0 || s1 = 0
+#    Time: 22600 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=7 | e2=1 || s1 = 7
+#    Time: 22700 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=7 | e2=1 || s1 = 1
+#    Time: 22800 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=7 | e2=2 || s1 = 7
+#    Time: 22900 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=7 | e2=2 || s1 = 2
+#    Time: 23 ms  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=7 | e2=3 || s1 = 7
+#    Time: 23100 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=7 | e2=3 || s1 = 3
+#    Time: 23200 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=7 | e2=4 || s1 = 7
+#    Time: 23300 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=7 | e2=4 || s1 = 4
+#    Time: 23400 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=7 | e2=5 || s1 = 7
+#    Time: 23500 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=7 | e2=5 || s1 = 5
+#    Time: 23600 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=7 | e2=6 || s1 = 7
+#    Time: 23700 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=7 | e2=6 || s1 = 6
+#    Time: 23800 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=7 | e2=7 || s1 = 7
+#    Time: 23900 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=7 | e2=7 || s1 = 7
+#    Time: 24 ms  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=7 | e2=8 || s1 = 7
+#    Time: 24100 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=7 | e2=8 || s1 = 8
+#    Time: 24200 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=7 | e2=9 || s1 = 7
+#    Time: 24300 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=7 | e2=9 || s1 = 9
+#    Time: 24400 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=7 | e2=10 || s1 = 7
+#    Time: 24500 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=7 | e2=10 || s1 = 10
+#    Time: 24600 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=7 | e2=11 || s1 = 7
+#    Time: 24700 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=7 | e2=11 || s1 = 11
+#    Time: 24800 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=7 | e2=12 || s1 = 7
+#    Time: 24900 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=7 | e2=12 || s1 = 12
+#    Time: 25 ms  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=7 | e2=13 || s1 = 7
+#    Time: 25100 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=7 | e2=13 || s1 = 13
+#    Time: 25200 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=7 | e2=14 || s1 = 7
+#    Time: 25300 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=7 | e2=14 || s1 = 14
+#    Time: 25400 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=7 | e2=15 || s1 = 7
+#    Time: 25500 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=7 | e2=15 || s1 = 15
+#    Time: 25600 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=8 | e2=0 || s1 = 8
+#    Time: 25700 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=8 | e2=0 || s1 = 0
+#    Time: 25800 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=8 | e2=1 || s1 = 8
+#    Time: 25900 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=8 | e2=1 || s1 = 1
+#    Time: 26 ms  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=8 | e2=2 || s1 = 8
+#    Time: 26100 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=8 | e2=2 || s1 = 2
+#    Time: 26200 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=8 | e2=3 || s1 = 8
+#    Time: 26300 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=8 | e2=3 || s1 = 3
+#    Time: 26400 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=8 | e2=4 || s1 = 8
+#    Time: 26500 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=8 | e2=4 || s1 = 4
+#    Time: 26600 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=8 | e2=5 || s1 = 8
+#    Time: 26700 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=8 | e2=5 || s1 = 5
+#    Time: 26800 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=8 | e2=6 || s1 = 8
+#    Time: 26900 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=8 | e2=6 || s1 = 6
+#    Time: 27 ms  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=8 | e2=7 || s1 = 8
+#    Time: 27100 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=8 | e2=7 || s1 = 7
+#    Time: 27200 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=8 | e2=8 || s1 = 8
+#    Time: 27300 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=8 | e2=8 || s1 = 8
+#    Time: 27400 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=8 | e2=9 || s1 = 8
+#    Time: 27500 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=8 | e2=9 || s1 = 9
+#    Time: 27600 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=8 | e2=10 || s1 = 8
+#    Time: 27700 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=8 | e2=10 || s1 = 10
+#    Time: 27800 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=8 | e2=11 || s1 = 8
+#    Time: 27900 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=8 | e2=11 || s1 = 11
+#    Time: 28 ms  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=8 | e2=12 || s1 = 8
+#    Time: 28100 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=8 | e2=12 || s1 = 12
+#    Time: 28200 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=8 | e2=13 || s1 = 8
+#    Time: 28300 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=8 | e2=13 || s1 = 13
+#    Time: 28400 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=8 | e2=14 || s1 = 8
+#    Time: 28500 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=8 | e2=14 || s1 = 14
+#    Time: 28600 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=8 | e2=15 || s1 = 8
+#    Time: 28700 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=8 | e2=15 || s1 = 15
+#    Time: 28800 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=9 | e2=0 || s1 = 9
+#    Time: 28900 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=9 | e2=0 || s1 = 0
+#    Time: 29 ms  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=9 | e2=1 || s1 = 9
+#    Time: 29100 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=9 | e2=1 || s1 = 1
+#    Time: 29200 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=9 | e2=2 || s1 = 9
+#    Time: 29300 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=9 | e2=2 || s1 = 2
+#    Time: 29400 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=9 | e2=3 || s1 = 9
+#    Time: 29500 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=9 | e2=3 || s1 = 3
+#    Time: 29600 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=9 | e2=4 || s1 = 9
+#    Time: 29700 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=9 | e2=4 || s1 = 4
+#    Time: 29800 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=9 | e2=5 || s1 = 9
+#    Time: 29900 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=9 | e2=5 || s1 = 5
+#    Time: 30 ms  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=9 | e2=6 || s1 = 9
+#    Time: 30100 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=9 | e2=6 || s1 = 6
+#    Time: 30200 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=9 | e2=7 || s1 = 9
+#    Time: 30300 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=9 | e2=7 || s1 = 7
+#    Time: 30400 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=9 | e2=8 || s1 = 9
+#    Time: 30500 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=9 | e2=8 || s1 = 8
+#    Time: 30600 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=9 | e2=9 || s1 = 9
+#    Time: 30700 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=9 | e2=9 || s1 = 9
+#    Time: 30800 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=9 | e2=10 || s1 = 9
+#    Time: 30900 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=9 | e2=10 || s1 = 10
+#    Time: 31 ms  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=9 | e2=11 || s1 = 9
+#    Time: 31100 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=9 | e2=11 || s1 = 11
+#    Time: 31200 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=9 | e2=12 || s1 = 9
+#    Time: 31300 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=9 | e2=12 || s1 = 12
+#    Time: 31400 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=9 | e2=13 || s1 = 9
+#    Time: 31500 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=9 | e2=13 || s1 = 13
+#    Time: 31600 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=9 | e2=14 || s1 = 9
+#    Time: 31700 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=9 | e2=14 || s1 = 14
+#    Time: 31800 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=9 | e2=15 || s1 = 9
+#    Time: 31900 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=9 | e2=15 || s1 = 15
+#    Time: 32 ms  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=10 | e2=0 || s1 = 10
+#    Time: 32100 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=10 | e2=0 || s1 = 0
+#    Time: 32200 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=10 | e2=1 || s1 = 10
+#    Time: 32300 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=10 | e2=1 || s1 = 1
+#    Time: 32400 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=10 | e2=2 || s1 = 10
+#    Time: 32500 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=10 | e2=2 || s1 = 2
+#    Time: 32600 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=10 | e2=3 || s1 = 10
+#    Time: 32700 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=10 | e2=3 || s1 = 3
+#    Time: 32800 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=10 | e2=4 || s1 = 10
+#    Time: 32900 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=10 | e2=4 || s1 = 4
+#    Time: 33 ms  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=10 | e2=5 || s1 = 10
+#    Time: 33100 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=10 | e2=5 || s1 = 5
+#    Time: 33200 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=10 | e2=6 || s1 = 10
+#    Time: 33300 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=10 | e2=6 || s1 = 6
+#    Time: 33400 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=10 | e2=7 || s1 = 10
+#    Time: 33500 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=10 | e2=7 || s1 = 7
+#    Time: 33600 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=10 | e2=8 || s1 = 10
+#    Time: 33700 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=10 | e2=8 || s1 = 8
+#    Time: 33800 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=10 | e2=9 || s1 = 10
+#    Time: 33900 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=10 | e2=9 || s1 = 9
+#    Time: 34 ms  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=10 | e2=10 || s1 = 10
+#    Time: 34100 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=10 | e2=10 || s1 = 10
+#    Time: 34200 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=10 | e2=11 || s1 = 10
+#    Time: 34300 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=10 | e2=11 || s1 = 11
+#    Time: 34400 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=10 | e2=12 || s1 = 10
+#    Time: 34500 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=10 | e2=12 || s1 = 12
+#    Time: 34600 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=10 | e2=13 || s1 = 10
+#    Time: 34700 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=10 | e2=13 || s1 = 13
+#    Time: 34800 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=10 | e2=14 || s1 = 10
+#    Time: 34900 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=10 | e2=14 || s1 = 14
+#    Time: 35 ms  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=10 | e2=15 || s1 = 10
+#    Time: 35100 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=10 | e2=15 || s1 = 15
+#    Time: 35200 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=11 | e2=0 || s1 = 11
+#    Time: 35300 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=11 | e2=0 || s1 = 0
+#    Time: 35400 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=11 | e2=1 || s1 = 11
+#    Time: 35500 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=11 | e2=1 || s1 = 1
+#    Time: 35600 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=11 | e2=2 || s1 = 11
+#    Time: 35700 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=11 | e2=2 || s1 = 2
+#    Time: 35800 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=11 | e2=3 || s1 = 11
+#    Time: 35900 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=11 | e2=3 || s1 = 3
+#    Time: 36 ms  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=11 | e2=4 || s1 = 11
+#    Time: 36100 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=11 | e2=4 || s1 = 4
+#    Time: 36200 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=11 | e2=5 || s1 = 11
+#    Time: 36300 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=11 | e2=5 || s1 = 5
+#    Time: 36400 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=11 | e2=6 || s1 = 11
+#    Time: 36500 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=11 | e2=6 || s1 = 6
+#    Time: 36600 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=11 | e2=7 || s1 = 11
+#    Time: 36700 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=11 | e2=7 || s1 = 7
+#    Time: 36800 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=11 | e2=8 || s1 = 11
+#    Time: 36900 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=11 | e2=8 || s1 = 8
+#    Time: 37 ms  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=11 | e2=9 || s1 = 11
+#    Time: 37100 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=11 | e2=9 || s1 = 9
+#    Time: 37200 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=11 | e2=10 || s1 = 11
+#    Time: 37300 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=11 | e2=10 || s1 = 10
+#    Time: 37400 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=11 | e2=11 || s1 = 11
+#    Time: 37500 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=11 | e2=11 || s1 = 11
+#    Time: 37600 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=11 | e2=12 || s1 = 11
+#    Time: 37700 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=11 | e2=12 || s1 = 12
+#    Time: 37800 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=11 | e2=13 || s1 = 11
+#    Time: 37900 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=11 | e2=13 || s1 = 13
+#    Time: 38 ms  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=11 | e2=14 || s1 = 11
+#    Time: 38100 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=11 | e2=14 || s1 = 14
+#    Time: 38200 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=11 | e2=15 || s1 = 11
+#    Time: 38300 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=11 | e2=15 || s1 = 15
+#    Time: 38400 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=12 | e2=0 || s1 = 12
+#    Time: 38500 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=12 | e2=0 || s1 = 0
+#    Time: 38600 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=12 | e2=1 || s1 = 12
+#    Time: 38700 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=12 | e2=1 || s1 = 1
+#    Time: 38800 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=12 | e2=2 || s1 = 12
+#    Time: 38900 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=12 | e2=2 || s1 = 2
+#    Time: 39 ms  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=12 | e2=3 || s1 = 12
+#    Time: 39100 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=12 | e2=3 || s1 = 3
+#    Time: 39200 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=12 | e2=4 || s1 = 12
+#    Time: 39300 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=12 | e2=4 || s1 = 4
+#    Time: 39400 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=12 | e2=5 || s1 = 12
+#    Time: 39500 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=12 | e2=5 || s1 = 5
+#    Time: 39600 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=12 | e2=6 || s1 = 12
+#    Time: 39700 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=12 | e2=6 || s1 = 6
+#    Time: 39800 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=12 | e2=7 || s1 = 12
+#    Time: 39900 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=12 | e2=7 || s1 = 7
+#    Time: 40 ms  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=12 | e2=8 || s1 = 12
+#    Time: 40100 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=12 | e2=8 || s1 = 8
+#    Time: 40200 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=12 | e2=9 || s1 = 12
+#    Time: 40300 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=12 | e2=9 || s1 = 9
+#    Time: 40400 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=12 | e2=10 || s1 = 12
+#    Time: 40500 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=12 | e2=10 || s1 = 10
+#    Time: 40600 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=12 | e2=11 || s1 = 12
+#    Time: 40700 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=12 | e2=11 || s1 = 11
+#    Time: 40800 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=12 | e2=12 || s1 = 12
+#    Time: 40900 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=12 | e2=12 || s1 = 12
+#    Time: 41 ms  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=12 | e2=13 || s1 = 12
+#    Time: 41100 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=12 | e2=13 || s1 = 13
+#    Time: 41200 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=12 | e2=14 || s1 = 12
+#    Time: 41300 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=12 | e2=14 || s1 = 14
+#    Time: 41400 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=12 | e2=15 || s1 = 12
+#    Time: 41500 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=12 | e2=15 || s1 = 15
+#    Time: 41600 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=13 | e2=0 || s1 = 13
+#    Time: 41700 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=13 | e2=0 || s1 = 0
+#    Time: 41800 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=13 | e2=1 || s1 = 13
+#    Time: 41900 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=13 | e2=1 || s1 = 1
+#    Time: 42 ms  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=13 | e2=2 || s1 = 13
+#    Time: 42100 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=13 | e2=2 || s1 = 2
+#    Time: 42200 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=13 | e2=3 || s1 = 13
+#    Time: 42300 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=13 | e2=3 || s1 = 3
+#    Time: 42400 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=13 | e2=4 || s1 = 13
+#    Time: 42500 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=13 | e2=4 || s1 = 4
+#    Time: 42600 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=13 | e2=5 || s1 = 13
+#    Time: 42700 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=13 | e2=5 || s1 = 5
+#    Time: 42800 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=13 | e2=6 || s1 = 13
+#    Time: 42900 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=13 | e2=6 || s1 = 6
+#    Time: 43 ms  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=13 | e2=7 || s1 = 13
+#    Time: 43100 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=13 | e2=7 || s1 = 7
+#    Time: 43200 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=13 | e2=8 || s1 = 13
+#    Time: 43300 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=13 | e2=8 || s1 = 8
+#    Time: 43400 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=13 | e2=9 || s1 = 13
+#    Time: 43500 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=13 | e2=9 || s1 = 9
+#    Time: 43600 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=13 | e2=10 || s1 = 13
+#    Time: 43700 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=13 | e2=10 || s1 = 10
+#    Time: 43800 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=13 | e2=11 || s1 = 13
+#    Time: 43900 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=13 | e2=11 || s1 = 11
+#    Time: 44 ms  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=13 | e2=12 || s1 = 13
+#    Time: 44100 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=13 | e2=12 || s1 = 12
+#    Time: 44200 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=13 | e2=13 || s1 = 13
+#    Time: 44300 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=13 | e2=13 || s1 = 13
+#    Time: 44400 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=13 | e2=14 || s1 = 13
+#    Time: 44500 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=13 | e2=14 || s1 = 14
+#    Time: 44600 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=13 | e2=15 || s1 = 13
+#    Time: 44700 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=13 | e2=15 || s1 = 15
+#    Time: 44800 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=14 | e2=0 || s1 = 14
+#    Time: 44900 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=14 | e2=0 || s1 = 0
+#    Time: 45 ms  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=14 | e2=1 || s1 = 14
+#    Time: 45100 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=14 | e2=1 || s1 = 1
+#    Time: 45200 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=14 | e2=2 || s1 = 14
+#    Time: 45300 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=14 | e2=2 || s1 = 2
+#    Time: 45400 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=14 | e2=3 || s1 = 14
+#    Time: 45500 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=14 | e2=3 || s1 = 3
+#    Time: 45600 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=14 | e2=4 || s1 = 14
+#    Time: 45700 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=14 | e2=4 || s1 = 4
+#    Time: 45800 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=14 | e2=5 || s1 = 14
+#    Time: 45900 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=14 | e2=5 || s1 = 5
+#    Time: 46 ms  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=14 | e2=6 || s1 = 14
+#    Time: 46100 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=14 | e2=6 || s1 = 6
+#    Time: 46200 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=14 | e2=7 || s1 = 14
+#    Time: 46300 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=14 | e2=7 || s1 = 7
+#    Time: 46400 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=14 | e2=8 || s1 = 14
+#    Time: 46500 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=14 | e2=8 || s1 = 8
+#    Time: 46600 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=14 | e2=9 || s1 = 14
+#    Time: 46700 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=14 | e2=9 || s1 = 9
+#    Time: 46800 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=14 | e2=10 || s1 = 14
+#    Time: 46900 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=14 | e2=10 || s1 = 10
+#    Time: 47 ms  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=14 | e2=11 || s1 = 14
+#    Time: 47100 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=14 | e2=11 || s1 = 11
+#    Time: 47200 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=14 | e2=12 || s1 = 14
+#    Time: 47300 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=14 | e2=12 || s1 = 12
+#    Time: 47400 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=14 | e2=13 || s1 = 14
+#    Time: 47500 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=14 | e2=13 || s1 = 13
+#    Time: 47600 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=14 | e2=14 || s1 = 14
+#    Time: 47700 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=14 | e2=14 || s1 = 14
+#    Time: 47800 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=14 | e2=15 || s1 = 14
+#    Time: 47900 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=14 | e2=15 || s1 = 15
+#    Time: 48 ms  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=15 | e2=0 || s1 = 15
+#    Time: 48100 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=15 | e2=0 || s1 = 0
+#    Time: 48200 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=15 | e2=1 || s1 = 15
+#    Time: 48300 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=15 | e2=1 || s1 = 1
+#    Time: 48400 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=15 | e2=2 || s1 = 15
+#    Time: 48500 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=15 | e2=2 || s1 = 2
+#    Time: 48600 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=15 | e2=3 || s1 = 15
+#    Time: 48700 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=15 | e2=3 || s1 = 3
+#    Time: 48800 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=15 | e2=4 || s1 = 15
+#    Time: 48900 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=15 | e2=4 || s1 = 4
+#    Time: 49 ms  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=15 | e2=5 || s1 = 15
+#    Time: 49100 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=15 | e2=5 || s1 = 5
+#    Time: 49200 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=15 | e2=6 || s1 = 15
+#    Time: 49300 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=15 | e2=6 || s1 = 6
+#    Time: 49400 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=15 | e2=7 || s1 = 15
+#    Time: 49500 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=15 | e2=7 || s1 = 7
+#    Time: 49600 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=15 | e2=8 || s1 = 15
+#    Time: 49700 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=15 | e2=8 || s1 = 8
+#    Time: 49800 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=15 | e2=9 || s1 = 15
+#    Time: 49900 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=15 | e2=9 || s1 = 9
+#    Time: 50 ms  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=15 | e2=10 || s1 = 15
+#    Time: 50100 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=15 | e2=10 || s1 = 10
+#    Time: 50200 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=15 | e2=11 || s1 = 15
+#    Time: 50300 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=15 | e2=11 || s1 = 11
+#    Time: 50400 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=15 | e2=12 || s1 = 15
+#    Time: 50500 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=15 | e2=12 || s1 = 12
+#    Time: 50600 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=15 | e2=13 || s1 = 15
+#    Time: 50700 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=15 | e2=13 || s1 = 13
+#    Time: 50800 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=15 | e2=14 || s1 = 15
+#    Time: 50900 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=15 | e2=14 || s1 = 14
+#    Time: 51 ms  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=0 | el=15 | e2=15 || s1 = 15
+#    Time: 51100 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: sel_in=1 | el=15 | e2=15 || s1 = 15
+#    Time: 51200 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# ** Note: Simulation complete
+#    Time: 51200 us  Iteration: 0  Instance: /mymuxnbits2vers1testbench
+# Compile of mysynthcomb01D.vhd failed with 4 errors.
+# Compile of mysynthcomb01TB.vhd failed with 1 errors.
+# 2 compiles, 2 failed with 5 errors.
+# Compile of mysynthcomb01D.vhd failed with 6 errors.
+# Compile of mysynthcomb01TB.vhd failed with 1 errors.
+# 2 compiles, 2 failed with 7 errors.
+# Compile of mysynthcomb01D.vhd failed with 6 errors.
+# Compile of mysynthcomb01TB.vhd failed with 1 errors.
+# 2 compiles, 2 failed with 7 errors.
+# Compile of mysynthcomb01D.vhd failed with 3 errors.
+# Compile of mysynthcomb01TB.vhd failed with 1 errors.
+# 2 compiles, 2 failed with 4 errors.
+# Compile of mysynthcomb01D.vhd failed with 2 errors.
+# Compile of mysynthcomb01TB.vhd failed with 1 errors.
+# 2 compiles, 2 failed with 3 errors.
+# Compile of mysynthcomb01D.vhd was successful.
+# Compile of mysynthcomb01TB.vhd failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of mysynthcomb01TB.vhd failed with 1 errors.
+# Compile of mysynthcomb01TB.vhd failed with 1 errors.
+# Compile of mysynthcomb01TB.vhd failed with 1 errors.
+# Compile of mysynthcomb01TB.vhd failed with 7 errors.
+# Compile of mysynthcomb01TB.vhd failed with 7 errors.
+# Compile of mysynthcomb01TB.vhd failed with 7 errors.
+# Compile of mysynthcomb01TB.vhd failed with 7 errors.
+# Compile of mysynthcomb01TB.vhd failed with 7 errors.
+# Compile of mysynthcomb01TB.vhd failed with 7 errors.
+# Compile of mysynthcomb01TB.vhd failed with 7 errors.
+# Compile of mysynthcomb01TB.vhd failed with 7 errors.
+# Compile of mysynthcomb01TB.vhd failed with 7 errors.
+# Compile of mysynthcomb01TB.vhd failed with 7 errors.
+# Compile of mysynthcomb01TB.vhd failed with 7 errors.
+# Compile of mysynthcomb01TB.vhd failed with 7 errors.
+# Compile of mysynthcomb01TB.vhd failed with 7 errors.
+# Compile of mysynthcomb01TB.vhd failed with 7 errors.
+# Compile of mysynthcomb01TB.vhd failed with 7 errors.
+# Compile of mysynthcomb01TB.vhd failed with 7 errors.
+# Compile of mysynthcomb01TB.vhd failed with 7 errors.
+# Compile of mysynthcomb01TB.vhd failed with 7 errors.
+# Compile of mysynthcomb01TB.vhd failed with 7 errors.
+# Compile of mysynthcomb01TB.vhd failed with 7 errors.
+# Compile of mysynthcomb01TB.vhd failed with 7 errors.
+# Compile of mysynthcomb01TB.vhd failed with 7 errors.
+# Compile of mysynthcomb01TB.vhd failed with 7 errors.
+# Compile of mysynthcomb01TB.vhd failed with 7 errors.
+# Compile of mysynthcomb01TB.vhd failed with 7 errors.
+# Compile of mysynthcomb01TB.vhd failed with 7 errors.
+# Compile of mysynthcomb01TB.vhd failed with 7 errors.
+# Compile of mysynthcomb01TB.vhd failed with 7 errors.
+# Compile of mysynthcomb01TB.vhd failed with 7 errors.
+# Compile of mysynthcomb01TB.vhd failed with 7 errors.
+# Compile of mysynthcomb01TB.vhd failed with 2 errors.
+# Compile of mysynthcomb01TB.vhd failed with 2 errors.
+# Compile of mysynthcomb01TB.vhd failed with 2 errors.
+# Compile of mysynthcomb01TB.vhd failed with 7 errors.
+# Compile of mysynthcomb01TB.vhd failed with 7 errors.
+# Compile of mysynthcomb01TB.vhd failed with 7 errors.
+# Compile of mysynthcomb01TB.vhd failed with 7 errors.
+# Compile of mysynthcomb01TB.vhd failed with 7 errors.
+# Compile of mysynthcomb01TB.vhd failed with 7 errors.
+# Compile of mysynthcomb01TB.vhd failed with 7 errors.
