@@ -23,7 +23,7 @@ architecture bufferNbits_Arch of bufferNbits is
                 s1 <= (others => '0');
             elsif (rising_edge(clock)) then
                 if (preset = '1') then
-                    --report "Presetting bufferNbits";
+                --report "Presetting bufferNbits";
                     s1 <= (others => '1');
                 else
                 --report "Buffering e1 to s1 in bufferNbit";

@@ -186,3 +186,1366 @@ run -all
 #    Time: 1475 us  Iteration: 0  Instance: /mybuffernbitstestbench
 # ** Note: Test ok (no assert...)
 #    Time: 1475 us  Iteration: 0  Instance: /mybuffernbitstestbench
+# Compile of bufferD.vhd was successful.
+# Compile of bufferTB.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.buffernbits(buffernbits_arch)
+# Loading work.mybuffernbitstestbench(mybuffernbitstb_arch)
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+run -all
+# ** Note: reset = '1' | preset = '0' | e1 = 0 || s1 = 0
+#    Time: 325 us  Iteration: 0  Instance: /mybuffernbitstestbench
+# ** Note: reset = '0' | preset = '1' | e1 = 0 || s1 = 7
+#    Time: 675 us  Iteration: 0  Instance: /mybuffernbitstestbench
+# ** Note: reset = '0' | preset = '0' | e1 = 0 || s1 = 0
+#    Time: 775 us  Iteration: 0  Instance: /mybuffernbitstestbench
+# ** Note: reset = '0' | preset = '0' | e1 = 1 || s1 = 1
+#    Time: 875 us  Iteration: 0  Instance: /mybuffernbitstestbench
+# ** Note: reset = '0' | preset = '0' | e1 = 2 || s1 = 2
+#    Time: 975 us  Iteration: 0  Instance: /mybuffernbitstestbench
+# ** Note: reset = '0' | preset = '0' | e1 = 3 || s1 = 3
+#    Time: 1075 us  Iteration: 0  Instance: /mybuffernbitstestbench
+# ** Note: reset = '0' | preset = '0' | e1 = 4 || s1 = 4
+#    Time: 1175 us  Iteration: 0  Instance: /mybuffernbitstestbench
+# ** Note: reset = '0' | preset = '0' | e1 = 5 || s1 = 5
+#    Time: 1275 us  Iteration: 0  Instance: /mybuffernbitstestbench
+# ** Note: reset = '0' | preset = '0' | e1 = 6 || s1 = 6
+#    Time: 1375 us  Iteration: 0  Instance: /mybuffernbitstestbench
+# ** Note: reset = '0' | preset = '0' | e1 = 7 || s1 = 7
+#    Time: 1475 us  Iteration: 0  Instance: /mybuffernbitstestbench
+# ** Note: Test ok (no assert...)
+#    Time: 1475 us  Iteration: 0  Instance: /mybuffernbitstestbench
+# Compile of compteurD.vhd failed with 1 errors.
+# Compile of compteurTB.vhd failed with 19 errors.
+# 2 compiles, 2 failed with 20 errors.
+# Compile of compteurTB.vhd failed with 8 errors.
+# Compile of compteurTB.vhd failed with 3 errors.
+# Compile of compteurTB.vhd failed with 3 errors.
+# Compile of compteurTB.vhd failed with 3 errors.
+# Compile of compteurTB.vhd failed with 3 errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Compile of compteurTB.vhd failed with 5 errors.
+# Compile of compteurTB.vhd failed with 5 errors.
+# Compile of compteurD.vhd failed with 1 errors.
+# Compile of compteurD.vhd was successful.
+# Compile of compteurTB.vhd was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+vsim -gui work.comptdecompnbits work.mycomptdecompnbitstestbench
+# End time: 22:31:55 on Mar 08,2023, Elapsed time: 2:52:01
+# Errors: 0, Warnings: 1
+# vsim -gui work.comptdecompnbits work.mycomptdecompnbitstestbench 
+# Start time: 22:31:55 on Mar 08,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.comptdecompnbits(comptdecompnbits_arch)
+# Loading work.mycomptdecompnbitstestbench(mycomptdecompnbitstestbench_arch)
+run -all
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 50 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 50 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 150 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 150 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 250 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 250 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 350 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 350 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 450 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 450 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 550 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 550 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 650 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 650 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 750 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 750 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 850 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 850 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 950 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 950 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1050 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1050 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1150 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1150 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1250 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1250 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1350 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1350 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1450 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1450 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1550 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1550 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1650 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1650 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1750 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1750 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1850 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1850 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+add wave -position insertpoint sim:/mycomptdecompnbitstestbench/*
+run -all
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 50 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 50 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 150 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 150 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 250 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 250 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 350 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 350 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 450 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 450 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 550 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 550 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 650 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 650 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 750 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 750 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 850 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 850 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 950 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 950 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1050 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1050 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1150 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1150 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1250 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1250 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1350 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1350 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1450 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1450 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1550 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1550 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1650 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1650 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1750 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1750 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1850 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1850 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+add wave -position insertpoint sim:/comptdecompnbits/*
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run -all
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 50 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 50 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 150 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 150 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 250 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 250 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 350 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 350 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 450 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 450 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 550 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 550 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 650 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 650 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 750 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 750 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 850 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 850 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 950 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 950 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1050 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1050 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1150 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1150 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1250 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1250 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1350 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1350 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1450 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1450 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1550 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1550 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1650 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1650 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1750 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1750 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1850 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1850 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.mycomptdecompnbitstestbench(mycomptdecompnbitstestbench_arch)
+run -all
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 50 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 50 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 150 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 150 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 250 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 250 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 350 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 350 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 450 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 450 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 550 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 550 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 650 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 650 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 750 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 750 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 850 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 850 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 950 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 950 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1050 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1050 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1150 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1150 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1250 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1250 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1350 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1350 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1450 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1450 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1550 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1550 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1650 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1650 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1750 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1750 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1850 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1850 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.mycomptdecompnbitstestbench(mycomptdecompnbitstestbench_arch)
+run -all
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 50 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 50 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 150 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 150 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 250 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 250 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 350 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 350 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 450 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 450 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 550 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 550 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 650 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 650 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 750 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 750 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 850 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 850 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 950 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 950 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1050 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1050 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1150 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1150 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1250 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1250 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1350 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1350 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1450 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1450 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1550 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1550 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1650 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1650 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1750 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1750 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1850 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1850 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.mycomptdecompnbitstestbench(mycomptdecompnbitstestbench_arch)
+run -all
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 50 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 50 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 150 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 150 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 250 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 250 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 350 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 350 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 450 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 450 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 550 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 550 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 650 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 650 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 750 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 750 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 850 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 850 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 950 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 950 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1050 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1050 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1150 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1150 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1250 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1250 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1350 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1350 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1450 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1450 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1550 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1550 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1650 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1650 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1750 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1750 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1850 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1850 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# Compile of compteurTB.vhd was successful.
+# Compile of compteurD.vhd was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.comptdecompnbits(comptdecompnbits_arch)
+# Loading work.mycomptdecompnbitstestbench(mycomptdecompnbitstestbench_arch)
+run -all
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 50 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 50 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 150 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 150 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 250 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 250 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 350 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 350 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 450 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 450 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 550 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 550 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 650 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 650 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 750 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 750 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 850 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 850 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 950 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 950 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1050 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1050 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1150 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1150 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1250 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1250 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1350 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1350 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1450 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1450 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1550 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1550 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1650 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1650 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1750 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1750 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1850 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1850 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.mycomptdecompnbitstestbench(mycomptdecompnbitstestbench_arch)
+run -all
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 50 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 50 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 150 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 150 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 250 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 250 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 350 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 350 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 450 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 450 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 550 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 550 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 650 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 650 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 750 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 750 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 850 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 850 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 950 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 950 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1050 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1050 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1150 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1150 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1250 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1250 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1350 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1350 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1450 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1450 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1550 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1550 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1650 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1650 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1750 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1750 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1850 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1850 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.comptdecompnbits(comptdecompnbits_arch)
+# Loading work.mycomptdecompnbitstestbench(mycomptdecompnbitstestbench_arch)
+run -all
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 50 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 50 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: count
+#    Time: 50 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 150 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 150 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: count
+#    Time: 150 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 250 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 250 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: count
+#    Time: 250 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 350 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 350 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: count
+#    Time: 350 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 450 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 450 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: count
+#    Time: 450 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 550 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 550 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: count
+#    Time: 550 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 650 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 650 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: count
+#    Time: 650 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 750 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 750 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: count
+#    Time: 750 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 850 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 850 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: count
+#    Time: 850 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 950 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 950 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: count
+#    Time: 950 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1050 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1050 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: count
+#    Time: 1050 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1150 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1150 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: count
+#    Time: 1150 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1250 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1250 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: count
+#    Time: 1250 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1350 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1350 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: count
+#    Time: 1350 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1450 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1450 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: count
+#    Time: 1450 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1550 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1550 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: count
+#    Time: 1550 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1650 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1650 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: count
+#    Time: 1650 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1750 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1750 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: count
+#    Time: 1750 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1850 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1850 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: count
+#    Time: 1850 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading ieee.numeric_std(body)
+# Loading work.comptdecompnbits(comptdecompnbits_arch)
+run
+run -all
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 50 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 50 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 50 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Compteur : 0
+#    Time: 50 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 150 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 150 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 150 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Compteur : 0
+#    Time: 150 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 250 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 250 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 250 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Compteur : 0
+#    Time: 250 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 350 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 350 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 350 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Compteur : 0
+#    Time: 350 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 450 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 450 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 450 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Compteur : 0
+#    Time: 450 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 550 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 550 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 550 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Compteur : 0
+#    Time: 550 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 650 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 650 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 650 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Compteur : 0
+#    Time: 650 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 750 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 750 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 750 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Compteur : 0
+#    Time: 750 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 850 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 850 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 850 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Compteur : 0
+#    Time: 850 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 950 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 950 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 950 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Compteur : 0
+#    Time: 950 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1050 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1050 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1050 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Compteur : 0
+#    Time: 1050 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1150 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1150 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1150 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Compteur : 0
+#    Time: 1150 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1250 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1250 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1250 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Compteur : 0
+#    Time: 1250 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1350 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1350 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1350 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Compteur : 0
+#    Time: 1350 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1450 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1450 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1450 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Compteur : 0
+#    Time: 1450 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1550 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1550 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1550 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Compteur : 0
+#    Time: 1550 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1650 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1650 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1650 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Compteur : 0
+#    Time: 1650 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1750 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1750 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1750 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Compteur : 0
+#    Time: 1750 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1850 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1850 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1850 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Compteur : 0
+#    Time: 1850 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.comptdecompnbits(comptdecompnbits_arch)
+run -all
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 50 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 50 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 50 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Compteur : 0
+#    Time: 50 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 150 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 150 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 150 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Compteur : 0
+#    Time: 150 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 250 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 250 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 250 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Compteur : 0
+#    Time: 250 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 350 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 350 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 350 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Compteur : 0
+#    Time: 350 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 450 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 450 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 450 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Compteur : 0
+#    Time: 450 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 550 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 550 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 550 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Compteur : 0
+#    Time: 550 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 650 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 650 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 650 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Compteur : 0
+#    Time: 650 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 750 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 750 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 750 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Compteur : 0
+#    Time: 750 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 850 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 850 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 850 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Compteur : 0
+#    Time: 850 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 950 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 950 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 950 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Compteur : 0
+#    Time: 950 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1050 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1050 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1050 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Compteur : 0
+#    Time: 1050 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1150 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1150 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1150 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Compteur : 0
+#    Time: 1150 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1250 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1250 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1250 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Compteur : 0
+#    Time: 1250 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1350 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1350 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1350 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Compteur : 0
+#    Time: 1350 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1450 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1450 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1450 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Compteur : 0
+#    Time: 1450 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1550 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1550 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1550 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Compteur : 0
+#    Time: 1550 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1650 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1650 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1650 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Compteur : 0
+#    Time: 1650 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1750 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1750 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1750 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Compteur : 0
+#    Time: 1750 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1850 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1850 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1850 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Compteur : 0
+#    Time: 1850 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.comptdecompnbits(comptdecompnbits_arch)
+run -all
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 50 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 50 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 150 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 150 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 250 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 250 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 350 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 350 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 450 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 450 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 550 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 550 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 650 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 650 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 750 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 750 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 850 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 850 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 950 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 950 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1050 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1050 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1150 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1150 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1250 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1250 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1350 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1350 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1450 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1450 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1550 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1550 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1650 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1650 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1750 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1750 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1850 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1850 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.comptdecompnbits(comptdecompnbits_arch)
+run -all
+# Compile of compteurD.vhd was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.comptdecompnbits(comptdecompnbits_arch)
+run -all
+restart
+run -all
+restart
+# Loading work.comptdecompnbits(comptdecompnbits_arch)
+run -all
+restart
+# Loading work.mycomptdecompnbitstestbench(mycomptdecompnbitstestbench_arch)
+run -all
+# ** Note: Reset
+#    Time: 1200 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Reset
+#    Time: 1250 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Reset
+#    Time: 1300 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Reset
+#    Time: 1350 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Reset
+#    Time: 1400 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Reset
+#    Time: 1450 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Reset
+#    Time: 1500 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Reset
+#    Time: 1550 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Reset
+#    Time: 1600 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Reset
+#    Time: 1650 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Reset
+#    Time: 1700 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Reset
+#    Time: 1750 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Reset
+#    Time: 1800 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Reset
+#    Time: 1850 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+restart
+# Loading work.mycomptdecompnbitstestbench(mycomptdecompnbitstestbench_arch)
+run -all
+# ** Note: Reset
+#    Time: 1200 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Reset
+#    Time: 1250 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+run -all
+run
+restart
+run -all
+# ** Note: Reset
+#    Time: 1200 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Reset
+#    Time: 1250 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+restart
+# Loading work.mycomptdecompnbitstestbench(mycomptdecompnbitstestbench_arch)
+run -all
+# ** Note: Reset
+#    Time: 1200 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Reset
+#    Time: 1250 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+run -all
+restart
+run -all
+# ** Note: Reset
+#    Time: 1200 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Reset
+#    Time: 1250 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+restart
+run -all
+# ** Note: Reset
+#    Time: 1200 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Reset
+#    Time: 1250 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+restart
+# Loading work.comptdecompnbits(comptdecompnbits_arch)
+run -all
+# ** Note: Compteur : 0
+#    Time: 50 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Compteur : 1
+#    Time: 150 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Compteur : 2
+#    Time: 250 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Compteur : 3
+#    Time: 350 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Compteur : 4
+#    Time: 450 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Compteur : 5
+#    Time: 550 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Compteur : 6
+#    Time: 650 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Compteur : 7
+#    Time: 750 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Compteur : 0
+#    Time: 850 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Compteur : 1
+#    Time: 950 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Compteur : 2
+#    Time: 1050 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Compteur : 3
+#    Time: 1150 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Reset
+#    Time: 1200 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Reset
+#    Time: 1250 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Compteur : 0
+#    Time: 1350 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Compteur : 1
+#    Time: 1450 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Compteur : 2
+#    Time: 1550 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Compteur : 3
+#    Time: 1650 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Compteur : 4
+#    Time: 1750 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
+# ** Note: Compteur : 5
+#    Time: 1850 us  Iteration: 1  Instance: /mycomptdecompnbitstestbench/MyComponentsynthcomb01underTest
