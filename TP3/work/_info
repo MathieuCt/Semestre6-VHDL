@@ -1,0 +1,120 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP1/TP2
+Ebuffernbits
+Z0 w1678302002
+Z1 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 10
+Z5 dC:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP1/TP3
+Z6 8C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP1/TP3/bufferD.vhd
+Z7 FC:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP1/TP3/bufferD.vhd
+l0
+L5 1
+V?zGO7BGXe5dVV3_afhVXD1
+!s100 [T1aTnkj^W:H?CL?^LZg>3
+Z8 OV;C;2020.1;71
+32
+Z9 !s110 1678302016
+!i10b 1
+Z10 !s108 1678302016.000000
+Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP1/TP3/bufferD.vhd|
+Z12 !s107 C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP1/TP3/bufferD.vhd|
+!i113 1
+Z13 o-work work -2002 -explicit
+Z14 tExplicit 1 CvgOpt 0
+Abuffernbits_arch
+R1
+R2
+R3
+R4
+DEx4 work 11 buffernbits 0 22 ?zGO7BGXe5dVV3_afhVXD1
+!i122 10
+l19
+L18 17
+VVQF]3ePemX6iEe4zNzoTd0
+!s100 J=FikgRJNCEk^`1zk7cYH1
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Emybuffernbitstestbench
+Z15 w1678301479
+Z16 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R3
+R4
+!i122 11
+R5
+Z17 8C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP1/TP3/bufferTB.vhd
+Z18 FC:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP1/TP3/bufferTB.vhd
+l0
+L5 1
+VoadW4_DoJYLh[zSABX]K<3
+!s100 bcozz<nNmhVZG?8<lEm<=3
+R8
+32
+Z19 !s110 1678302017
+!i10b 1
+R10
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP1/TP3/bufferTB.vhd|
+Z21 !s107 C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP1/TP3/bufferTB.vhd|
+!i113 1
+R13
+R14
+Amybuffernbitstb_arch
+R16
+R3
+R4
+Z22 DEx4 work 22 mybuffernbitstestbench 0 22 oadW4_DoJYLh[zSABX]K<3
+!i122 11
+l27
+Z23 L8 71
+Z24 V5bb^5o:ZcWmMm41ALQ@E;3
+Z25 !s100 a>lmaL^i8>05N82=bl91N1
+R8
+32
+R19
+!i10b 1
+R10
+R20
+R21
+!i113 1
+R13
+R14
+Amybuffernbitstestbench_arch
+R16
+R3
+R4
+R22
+!i122 3
+l27
+R23
+V5;J9ZO?]R8HnA_PbhkWka2
+!s100 ?96ImF?^GVoEZ`O8eZiAU2
+R8
+32
+!s110 1678301322
+!i10b 1
+!s108 1678301322.000000
+R20
+R21
+!i113 1
+R13
+R14
+w1678299793
