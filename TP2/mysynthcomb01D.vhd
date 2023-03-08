@@ -1,7 +1,7 @@
 library IEEE;
 use IEEE.std_logic_1164.all;
 
-entity synthcomb01 is
+entity mysynthcomb01 is
 generic (N : integer := 4);
 port (
     e1: in std_logic_vector (N-1 downto 0);
@@ -10,10 +10,10 @@ port (
     sel: in std_logic;
     s1: out std_logic_vector (2*N-1 downto 0)
 );
-end synthcomb01;
+end mysynthcomb01;
 
-architecture synthcomb01_arch of synthcomb01 is
-    component MultNbits is
+architecture mysynthcomb01_arch of mysynthcomb01 is
+    component multNbits is
         generic (N : integer);
         port ( e1: in std_logic_vector (N-1 downto 0);
                e2: in std_logic_vector (N-1 downto 0);
@@ -62,12 +62,12 @@ begin
         c_out => My_c_out
     );
 
-    MycomponentMulNbits : MultNbits
+    MycomponentMultNbits : MultNbits
     generic map (N => N)
     port map (
         e1 => e1,
         e2 => e2,
-        s1 => My_add_s1
+        s1 => my_mult_s1
     );
 
     MyComponentmuxNbits2vers1 : muxNbits2vers1
@@ -85,4 +85,4 @@ begin
     My_mux_e1(N) <= My_c_out;
     My_mux_e1(2*N-1 downto N+1) <= (others => '0');
 
-end synthcomb01_arch;
+end mysynthcomb01_arch;
