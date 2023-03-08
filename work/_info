@@ -124,12 +124,12 @@ R1
 R2
 R3
 R4
-Z29 DEx4 work 9 multnbits 0 22 >T:9Z3l;29FR_82QMHiHR3
+DEx4 work 9 multnbits 0 22 >T:9Z3l;29FR_82QMHiHR3
 !i122 41
 l18
-Z30 L13 11
-Z31 V?E?[2hBKZ3WH?WQckZM]g2
-Z32 !s100 :9mbgM?eJSYD[k7Z<XleA1
+L13 11
+V?E?[2hBKZ3WH?WQckZM]g2
+!s100 :9mbgM?eJSYD[k7Z<XleA1
 R8
 32
 R25
@@ -141,34 +141,34 @@ R28
 R13
 R14
 Emyaddnbitstb
-Z33 w1677241124
+Z29 w1677241124
 R1
 R2
-Z34 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z30 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
 R3
 R4
 !i122 28
 R5
-Z35 8C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP1/AdderTB.vhd
-Z36 FC:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP1/AdderTB.vhd
+Z31 8C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP1/AdderTB.vhd
+Z32 FC:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP1/AdderTB.vhd
 l0
 L6 1
 V[Z59DAbJ<>]hb^1=1n;D^2
 !s100 :@TXjY^To`;IYOl31=N[D0
 R8
 32
-Z37 !s110 1677241132
+Z33 !s110 1677241132
 !i10b 1
-Z38 !s108 1677241132.000000
-Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP1/AdderTB.vhd|
-Z40 !s107 C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP1/AdderTB.vhd|
+Z34 !s108 1677241132.000000
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP1/AdderTB.vhd|
+Z36 !s107 C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP1/AdderTB.vhd|
 !i113 1
 R13
 R14
 Amyaddnbitstb_arch
 R1
 R2
-R34
+R30
 R3
 R4
 DEx4 work 12 myaddnbitstb 0 22 [Z59DAbJ<>]hb^1=1n;D^2
@@ -179,39 +179,39 @@ VihQlkX46S?j3cJ>SH84I62
 !s100 oD=0^87Uj^EU6W^;>VOZI0
 R8
 32
-R37
+R33
 !i10b 1
-R38
-R39
-R40
+R34
+R35
+R36
 !i113 1
 R13
 R14
 Emyand2testbench
-Z41 w1677239813
-R34
+Z37 w1677239813
+R30
 R3
 R4
 !i122 29
 R5
-Z42 8C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP1/testBench.vhd
-Z43 FC:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP1/testBench.vhd
+Z38 8C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP1/testBench.vhd
+Z39 FC:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP1/testBench.vhd
 l0
 L7 1
 VQn[:5o=AliAYcS;M4XkCD0
 !s100 jRG9bQ?6H@UG><KVK:A;I3
 R8
 32
-Z44 !s110 1677249753
+Z40 !s110 1677249753
 !i10b 1
-Z45 !s108 1677249753.000000
-Z46 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP1/testBench.vhd|
-Z47 !s107 C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP1/testBench.vhd|
+Z41 !s108 1677249753.000000
+Z42 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP1/testBench.vhd|
+Z43 !s107 C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP1/testBench.vhd|
 !i113 1
 R13
 R14
 Amyand2testbench_arch
-R34
+R30
 R3
 R4
 DEx4 work 15 myand2testbench 0 22 Qn[:5o=AliAYcS;M4XkCD0
@@ -222,43 +222,43 @@ VeR<[^7aS^>k>KLmi;<gm=3
 !s100 o^G?On8ja4We=6F4gP1]h0
 R8
 32
-R44
+R40
 !i10b 1
-R45
-R46
-R47
+R41
+R42
+R43
 !i113 1
 R13
 R14
 Emymultnbitstb
-Z48 w1677251014
+Z44 w1677251014
 R1
 R2
-R34
+R30
 R3
 R4
 !i122 36
 R5
-Z49 8C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP1/MultTB.vhd
-Z50 FC:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP1/MultTB.vhd
+Z45 8C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP1/MultTB.vhd
+Z46 FC:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP1/MultTB.vhd
 l0
 L6 1
 V7ePC96bEWV<F?]a;O1bDi3
 !s100 Oc5JhiXSV]<^d_BUU5SaY1
 R8
 32
-Z51 !s110 1677251029
+Z47 !s110 1677251029
 !i10b 1
-Z52 !s108 1677251029.000000
-Z53 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP1/MultTB.vhd|
-Z54 !s107 C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP1/MultTB.vhd|
+Z48 !s108 1677251029.000000
+Z49 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP1/MultTB.vhd|
+Z50 !s107 C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP1/MultTB.vhd|
 !i113 1
 R13
 R14
 Amymultnbitstb_arch
 R1
 R2
-R34
+R30
 R3
 R4
 DEx4 work 13 mymultnbitstb 0 22 7ePC96bEWV<F?]a;O1bDi3
@@ -269,11 +269,35 @@ Vh^3cQhf5=O3CbgTP1W>^A0
 !s100 `fKf<9Mk9PA>[LkJ=T8_:3
 R8
 32
-R51
+R47
 !i10b 1
-R52
-R53
-R54
+R48
+R49
+R50
 !i113 1
 R13
+R14
+Emysynthcomb01tb
+w1677600688
+R1
+R30
+R3
+R4
+!i122 42
+R5
+8C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP1/TP2/mysynthcomb01TB.vhd
+FC:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP1/TP2/mysynthcomb01TB.vhd
+l0
+L6 1
+VXRg0@=`cfJdKWKeJ3H^X=2
+!s100 zEQ4g?QHi>gf?5BKUZz5m3
+R8
+32
+!s110 1678200742
+!i10b 1
+!s108 1678200742.000000
+!s90 -reportprogress|300|-work|work|C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP1/TP2/mysynthcomb01TB.vhd|
+!s107 C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP1/TP2/mysynthcomb01TB.vhd|
+!i113 1
+o-work work
 R14

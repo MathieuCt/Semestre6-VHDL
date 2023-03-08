@@ -1,0 +1,26 @@
+{C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP1/TP2/mysynthcomb01D.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP1/TP2/mysynthcomb01D.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity synthcomb01
+-- Compiling architecture synthcomb01_arch of synthcomb01
+
+} {} {}} {C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP1/TP2/MultiplexTB.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP1/TP2/MultiplexTB.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity mymuxNbits2vers1testbench
+-- Compiling architecture mymuxNbits2vers1testbench_Arch of mymuxNbits2vers1testbench
+
+} {} {}} {C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP1/TP2/MultiplexDesign.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP1/TP2/MultiplexDesign.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity muxNbits2vers1
+-- Compiling architecture muxNbits2vers1_Dataflow of muxNbits2vers1
+
+} {} {}}

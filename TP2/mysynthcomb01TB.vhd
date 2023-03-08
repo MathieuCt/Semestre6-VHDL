@@ -1,7 +1,7 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.NUMERIC_STD.ALL;
-use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
 
 entity mysynthcomb01TB is
 end mysynthcomb01TB;
@@ -25,20 +25,20 @@ architecture mysynthcomb01TB_arch of mysynthcomb01TB is
         signal e1_calc , e2_calc, c_in_calc : std_logic_vector (N downto 0) := (others => '0');
         signal s1_sim, s1_calc : std_logic_vector (2*N-1 downto 0) := (others => '0');
         signal sel_sim, c_in_sim : std_logic := '0';
-    begin
+begin
 
-        MyComponentmysynthcomb01undertest : synthcomb01TB
-        generic map(
-            N => N
-        )
-        port map(
-            e1 => e1_sim,
-            e2 => e2_sim,
-            c_in => c_in_sim,
-            sel => sel_sim,
-            s1 => s1_sim
-        );
-    
+    MyComponentmysynthcomb01undertest : mysynthcomb01
+    generic map(
+        N => N
+    )
+    port map(
+        e1 => e1_sim,
+        e2 => e2_sim,
+        c_in => c_in_sim,
+        sel => sel_sim,
+        s1 => s1_sim
+    );
+
     c_in_calc(0) <= c_in_sim;
     c_in_calc(N downto 1) <= (others => '0');
 
@@ -68,12 +68,12 @@ architecture mysynthcomb01TB_arch of mysynthcomb01TB is
                         c_in_sim <= to_unsigned(k, 1)(0);
                         sel_sim <= to_unsigned(l, 1)(0);
                         wait for 100 us;
-                        report "sel_in=" & integer'image (1) & " | c_in=" & integer 'image (k) & " | e1=" & integer'image(i) & " | e2  =" & integer'image(i) image (j) & " || s1 = " & integer 'image (to_integer (unsigned (s1_sim)));
+                        report "sel_in=" & integer'image (1) & " | c_in=" & integer'image (k) & " | e1=" & integer'image(i) & " | e2  =" & integer'image (j) & " || s1 = " & integer'image(to_integer (unsigned (s1_sim)));
                     end loop;
                 end loop;
             end loop;
         end loop;
         report "Simulation finished";
         wait;
-        end process;
-    end mysynthcomb01TB_arch;
+    end process;
+end mysynthcomb01TB_arch;
