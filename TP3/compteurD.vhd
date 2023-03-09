@@ -24,7 +24,7 @@ architecture comptdecompNbits_arch of comptdecompNbits is
         begin
             if (reset = '1') then
                 mycompteur <= (others => '0');
-                report "Reset";
+                --report "Reset";
             elsif (rising_edge(clock)) then
                 mycompteur <= mycompteur + 1;
                 report "Compteur : " & integer'image(to_integer(unsigned(mycompteur)));

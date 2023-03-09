@@ -55,13 +55,13 @@ R12
 R13
 R14
 Ecomptdecompnbits
-Z15 w1678313681
+Z15 w1678379313
 Z16 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
 R1
 R2
 R3
 R4
-!i122 64
+!i122 99
 R5
 Z17 8.\compteurD.vhd
 Z18 F.\compteurD.vhd
@@ -71,9 +71,9 @@ V?bfICK^4Rb2Fi5O_RUo:h3
 !s100 ^gF@_R?JI;VXM9l=X?Dl>2
 R8
 32
-Z19 !s110 1678313683
+Z19 !s110 1678379790
 !i10b 1
-Z20 !s108 1678313683.000000
+Z20 !s108 1678379790.000000
 Z21 !s90 .\compteurD.vhd|
 Z22 !s107 .\compteurD.vhd|
 !i113 1
@@ -85,11 +85,11 @@ R2
 R3
 R4
 DEx4 work 16 comptdecompnbits 0 22 ?bfICK^4Rb2Fi5O_RUo:h3
-!i122 64
+!i122 99
 l22
 L19 18
-V<5O3i5KHf_jLo]VcASD543
-!s100 CI@SQ52cVK7Wf<GSkfHPg1
+VHUM3YhmDFdTYfid70_5Yz3
+!s100 o4RGDZQ3aZLgK3?O<EUlk1
 R8
 32
 R19
@@ -164,39 +164,41 @@ R13
 R14
 w1678299793
 Emycomptdecompnbitstestbench
-Z30 w1678313392
+Z30 w1678380077
+R16
 R1
 R2
 R3
 R4
-!i122 61
+!i122 101
 R5
 Z31 8.\compteurTB.vhd
 Z32 F.\compteurTB.vhd
 l0
-L5 1
-V[7h@CR_bm=QRi6U5XYK<Q3
-!s100 l<MjOenWBCUQcdg^a@Ogj1
+L6 1
+VZo5bm^ABmofgS]748[`@_3
+!s100 dn^I0nZ]M7BWO[jD<3n<N0
 R8
 32
-Z33 !s110 1678313515
+Z33 !s110 1678380084
 !i10b 1
-Z34 !s108 1678313514.000000
+Z34 !s108 1678380084.000000
 Z35 !s90 .\compteurTB.vhd|
 Z36 !s107 .\compteurTB.vhd|
 !i113 1
 R14
 Amycomptdecompnbitstestbench_arch
+R16
 R1
 R2
 R3
 R4
-DEx4 work 27 mycomptdecompnbitstestbench 0 22 [7h@CR_bm=QRi6U5XYK<Q3
-!i122 61
-l25
-L8 43
-V8:WI:NRc0jS@EfHc^1cJ?3
-!s100 QzCBW2=dmEOczO?KNZ>c=1
+Z37 DEx4 work 27 mycomptdecompnbitstestbench 0 22 Zo5bm^ABmofgS]748[`@_3
+!i122 101
+l32
+L9 99
+VPh:mKA]L^nc1Tk^dbGWn20
+!s100 kfFL5?2_^`Z1Lj825md^g1
 R8
 32
 R33
