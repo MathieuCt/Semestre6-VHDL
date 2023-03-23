@@ -1,5 +1,6 @@
 library IEEE;
 use IEEE.std_logic_1164.all;
+use IEEE.numeric_std.all;
 
 entity mysynthcomb01 is
 generic (N : integer := 4);
@@ -21,7 +22,7 @@ architecture mysynthcomb01_arch of mysynthcomb01 is
         );
     end component;
 
-    signal My_mult_s1 : std_logic_vector (2*N-1 downto 0);
+    signal My_mult_s1 : UNSIGNED(std_logic_vector (2*N-1 downto 0))
 
     component addNbits is
     generic (N : integer);

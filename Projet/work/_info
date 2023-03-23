@@ -29,9 +29,9 @@ Z9 !s110 1678801796
 !i10b 1
 Z10 !s108 1678801796.000000
 Z11 !s90 .\AdderDesign.vhd|.\AdderTB.vhd|
-!s107 .\AdderTB.vhd|.\AdderDesign.vhd|
+Z12 !s107 .\AdderTB.vhd|.\AdderDesign.vhd|
 !i113 1
-Z12 tExplicit 1 CvgOpt 0
+Z13 tExplicit 1 CvgOpt 0
 Aaddnbits_dataflow
 R1
 R2
@@ -49,14 +49,38 @@ R9
 !i10b 1
 R10
 R11
-Z13 !s107 .\AdderTB.vhd|.\AdderDesign.vhd|
-!i113 1
 R12
-Emyaddnbitstb
-Z14 w1677241124
+!i113 1
+R13
+Ealu
+w1678810225
+Z14 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
 R1
 R2
-Z15 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R3
+R4
+!i122 13
+R5
+8.\ALUD.vhd
+F.\ALUD.vhd
+l0
+L6 1
+V@2?S_<2zHhnIdX>;jYLhm3
+!s100 <G1U7lPc_k_Z;1Bo_08QS2
+R8
+32
+!s110 1678810227
+!i10b 1
+!s108 1678810227.000000
+!s90 .\ALUD.vhd|
+!s107 .\ALUD.vhd|
+!i113 1
+R13
+Emyaddnbitstb
+Z15 w1677241124
+R1
+R2
+R14
 R3
 R4
 !i122 0
@@ -73,13 +97,13 @@ R9
 !i10b 1
 R10
 R11
-R13
-!i113 1
 R12
+!i113 1
+R13
 Amyaddnbitstb_arch
 R1
 R2
-R15
+R14
 R3
 R4
 DEx4 work 12 myaddnbitstb 0 22 7l29gkG`gBnn1l^N3]A^U3
@@ -94,6 +118,47 @@ R9
 !i10b 1
 R10
 R11
-R13
-!i113 1
 R12
+!i113 1
+R13
+Eoppose
+Z18 w1678807101
+R14
+R3
+R4
+!i122 3
+R5
+Z19 8.\Oppose.vhd
+Z20 F.\Oppose.vhd
+l0
+L5 1
+V4jWMNAGfzEJ]SOS:nAI;c3
+!s100 7L2`Ce5oQME?>2j=hE0Tm0
+R8
+32
+Z21 !s110 1678807103
+!i10b 1
+Z22 !s108 1678807103.000000
+Z23 !s90 .\Oppose.vhd|
+Z24 !s107 .\Oppose.vhd|
+!i113 1
+R13
+Aoppose_dataflow
+R14
+R3
+R4
+DEx4 work 6 oppose 0 22 4jWMNAGfzEJ]SOS:nAI;c3
+!i122 3
+l11
+L10 8
+VfckKFl^akkhz6Mm4O<oal3
+!s100 3z4<5Q2h0`Zf9B?`ki`081
+R8
+32
+R21
+!i10b 1
+R22
+R23
+R24
+!i113 1
+R13

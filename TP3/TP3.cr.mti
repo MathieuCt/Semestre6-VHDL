@@ -1,4 +1,14 @@
-{C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP/TP2/mysynthcomb01D.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP/TP2/mysynthcomb01D.vhd}
+{C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP/TP3/synthsequ01D.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP/TP3/synthsequ01D.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity synthsequ01
+-- Compiling architecture synthsequ01_arch of synthsequ01
+
+} {} {}} {C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP/TP2/mysynthcomb01D.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP/TP2/mysynthcomb01D.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
