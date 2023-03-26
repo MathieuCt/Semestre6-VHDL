@@ -7,8 +7,8 @@ entity ALU is
     generic (N: integer := 4);
     port (
         a, b: in signed(N-1 downto 0);
-        sel: in std_logic_vector(N-1 downto 0);
-        s : out signed(2*N-1 downto 0);
+        sel: in std_logic_vector(3 downto 0);
+        s : out signed(2*N-1 downto 0) := (others => '0');
         SR_IN_R : in std_logic;
         SR_IN_L : in std_logic;
         SR_OUT_R : out std_logic := '0';
@@ -16,34 +16,35 @@ entity ALU is
     );
 end ALU;
 architecture ALU_dataFlow of ALU is
-Signal selSeg : unsigned(N-1 downto 0);
 begin
-    main : process(a, b, sel)
+    main : process (a, b, sel)
+    variable selSeg :std_logic_vector(3 downto 0) := "0000";
+    variable My_a, My_b : signed(N-1 downto 0);
+    variable My_N : integer := N;
     begin
-        selSeg <= unsigned(sel); 
-        case selSeg is
-            when "0000" =>
-                s <= (others:=0);
+        case sel is
+            when "0000" => 
+                s(2*N-1 downto 0) <= (others => '0');
             when "0001" => 
-                SR_OUT_R <= a[0];
-                a2 = a/2;
-                a2[N-1] <= SR_IN_L;
-                s <= a2;
+                SR_OUT_R <= a(0);
+                My_a := a/2;
+                My_a(My_N-1) := SR_IN_L;
+                s <= My_a;
             when "0010" =>
-                SR_OUT_L <= a[N-1];
-                a2 = a*2;
-                a2[0] <= SR_IN_R;
-                s <= a2;
+                SR_OUT_L <= a(My_N-1);
+                My_a := a*2;
+                My_a(0) := SR_IN_R;
+                s <= My_a;
             when "0011" =>
-                SR_OUT_R <= a[0];
-                a2 = a/2;
-                a2[N-1] <= SR_IN_L;
-                s <= a2;
+                SR_OUT_R <= a(0);
+                My_a := a/2;
+                My_a(My_N-1) := SR_IN_L;
+                s <= My_a;
             when "0100" =>
-                SR_OUT_L <= b[N-1];
-                b2 = b*2;
-                b2[0] <= SR_IN_R;
-                s <= b2;
+                SR_OUT_L <= b(My_N-1);
+                My_b := b*2;
+                My_b(0) := SR_IN_R;
+                s <= My_b;
             when "0101" => 
                 s <= a;
             when "0110" =>
@@ -59,14 +60,19 @@ begin
             when "1011" => 
                 s <= a xor b;
             when "1100" => 
-                s <= a + b + SR_IN_R;
+                if SR_IN_R = '1' then
+                    s <= a + b + "1";
+                else
+                    s <= a + b;
+                end if;
             when "1101" =>
                 s <= a + b;
             when "1110" =>
                 s <= a - b;
             when "1111" =>
                 s <= a * b;
-            when others => s <= (others => '0');
+            when others => 
+                s <= (others => '0');
         end case;
     end process main;
 
