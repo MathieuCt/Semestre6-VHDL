@@ -35,11 +35,12 @@ begin
         SR_OUT_R => SR_OUT_R_sim,
         SR_OUT_L => SR_OUT_L_sim
     );
-    main : process
+    test : process
     begin
-        a_sim <= "0011";
-        b_sim <= "0001";
-        sel_sim <= "1101";
+        report "ALU Testbench" severity note;
+        a_sim <= "0111";
+        b_sim <= "0101";
+        sel_sim <= "1010";
         SR_IN_R_sim <= '0';
         SR_IN_L_sim <= '0';
         wait for 100 us;
@@ -48,6 +49,7 @@ begin
         sel_sim <= "1001";
         SR_IN_R_sim <= '0';
         SR_IN_L_sim <= '0';
+        wait for 100 us;
         wait;
-    end process main;
+    end process test;
 end ALUTB_Arch;

@@ -54,9 +54,9 @@ begin
             when "1000" =>
                 s <= not b;
             when "1001" =>
-                s <= a and b;
+                s <= resize(a and b, 2*N);
             when "1010" =>
-                s <= a or b;
+                s <= resize(a or b, 2*N);
             when "1011" => 
                 s <= a xor b;
             when "1100" => 
