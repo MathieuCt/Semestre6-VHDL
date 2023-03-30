@@ -40,13 +40,13 @@ begin
         report "ALU Testbench" severity note;
         a_sim <= "0111";
         b_sim <= "0101";
-        sel_sim <= "1010";
-        SR_IN_R_sim <= '0';
+        sel_sim <= "0010";
+        SR_IN_R_sim <= '1';
         SR_IN_L_sim <= '0';
         wait for 100 us;
         a_sim <= "0001";
-        b_sim <= "0001";
-        sel_sim <= "1001";
+        b_sim <= "1101";
+        sel_sim <= "0100";
         SR_IN_R_sim <= '0';
         SR_IN_L_sim <= '0';
         wait for 100 us;

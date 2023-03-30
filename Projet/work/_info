@@ -53,40 +53,102 @@ R12
 !i113 1
 R13
 Ealu
-w1678810225
-Z14 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z14 w1680169608
+Z15 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
 R1
 R2
 R3
 R4
-!i122 13
-R5
-8.\ALUD.vhd
-F.\ALUD.vhd
+!i122 42
+Z16 dC:/Users/louis/Semestre6-VHDL/Projet
+Z17 8.\ALUD.vhd
+Z18 F.\ALUD.vhd
 l0
 L6 1
-V@2?S_<2zHhnIdX>;jYLhm3
-!s100 <G1U7lPc_k_Z;1Bo_08QS2
+VSTz06NJF_PV;dQ]:e]WW^1
+!s100 0VGSMdFUeZgz8RPR?cJcf0
 R8
 32
-!s110 1678810227
+Z19 !s110 1680169613
 !i10b 1
-!s108 1678810227.000000
-!s90 .\ALUD.vhd|
-!s107 .\ALUD.vhd|
+Z20 !s108 1680169613.000000
+Z21 !s90 .\ALUD.vhd|
+Z22 !s107 .\ALUD.vhd|
+!i113 1
+R13
+Aalu_dataflow
+R15
+R1
+R2
+R3
+R4
+Z23 DEx4 work 3 alu 0 22 STz06NJF_PV;dQ]:e]WW^1
+!i122 42
+l19
+Z24 L18 62
+VD<UEXdQc45o@>EV:jUzG73
+!s100 @I@[IoKVMI@N[cdE<d9gc0
+R8
+32
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 1
+R13
+Ealutb
+Z25 w1679936510
+R15
+R3
+R4
+!i122 17
+R16
+Z26 8.\ALUTB.vhd
+Z27 F.\ALUTB.vhd
+l0
+L5 1
+V1M[?;SDA^fFOKbfEi5Cdg3
+!s100 lSaU7;1S=l1J0O0GdQ^N;1
+R8
+32
+Z28 !s110 1679936756
+!i10b 1
+Z29 !s108 1679936756.000000
+Z30 !s90 .\ALUTB.vhd|
+Z31 !s107 .\ALUTB.vhd|
+!i113 1
+R13
+Aalutb_arch
+R15
+R3
+R4
+DEx4 work 5 alutb 0 22 1M[?;SDA^fFOKbfEi5Cdg3
+!i122 17
+l25
+L8 48
+V3g:2Pbi]hkG4Tl?=iBXcW1
+!s100 X9QI`e7z;mZiIEJOXk`0H2
+R8
+32
+R28
+!i10b 1
+R29
+R30
+R31
 !i113 1
 R13
 Emyaddnbitstb
-Z15 w1677241124
+Z32 w1677241124
 R1
 R2
-R14
+R15
 R3
 R4
 !i122 0
 R5
-Z16 8.\AdderTB.vhd
-Z17 F.\AdderTB.vhd
+Z33 8.\AdderTB.vhd
+Z34 F.\AdderTB.vhd
 l0
 L6 1
 V7l29gkG`gBnn1l^N3]A^U3
@@ -103,7 +165,7 @@ R13
 Amyaddnbitstb_arch
 R1
 R2
-R14
+R15
 R3
 R4
 DEx4 work 12 myaddnbitstb 0 22 7l29gkG`gBnn1l^N3]A^U3
@@ -122,29 +184,29 @@ R12
 !i113 1
 R13
 Eoppose
-Z18 w1678807101
-R14
+Z35 w1678807101
+R15
 R3
 R4
 !i122 3
 R5
-Z19 8.\Oppose.vhd
-Z20 F.\Oppose.vhd
+Z36 8.\Oppose.vhd
+Z37 F.\Oppose.vhd
 l0
 L5 1
 V4jWMNAGfzEJ]SOS:nAI;c3
 !s100 7L2`Ce5oQME?>2j=hE0Tm0
 R8
 32
-Z21 !s110 1678807103
+Z38 !s110 1678807103
 !i10b 1
-Z22 !s108 1678807103.000000
-Z23 !s90 .\Oppose.vhd|
-Z24 !s107 .\Oppose.vhd|
+Z39 !s108 1678807103.000000
+Z40 !s90 .\Oppose.vhd|
+Z41 !s107 .\Oppose.vhd|
 !i113 1
 R13
 Aoppose_dataflow
-R14
+R15
 R3
 R4
 DEx4 work 6 oppose 0 22 4jWMNAGfzEJ]SOS:nAI;c3
@@ -155,10 +217,10 @@ VfckKFl^akkhz6Mm4O<oal3
 !s100 3z4<5Q2h0`Zf9B?`ki`081
 R8
 32
-R21
+R38
 !i10b 1
-R22
-R23
-R24
+R39
+R40
+R41
 !i113 1
 R13

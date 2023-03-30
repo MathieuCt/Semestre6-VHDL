@@ -18,59 +18,59 @@ end ALU;
 architecture ALU_dataFlow of ALU is
 begin
     main : process (a, b, sel)
-    variable selSeg :std_logic_vector(3 downto 0) := "0000";
     variable My_a, My_b : signed(N-1 downto 0);
+    variable My_c : signed(N-1 downto 0);
     variable My_N : integer := N;
     begin
         case sel is
             when "0000" => 
                 s(2*N-1 downto 0) <= (others => '0');
-            when "0001" => 
+            when "0011" => 
                 SR_OUT_R <= a(0);
-                My_a := a/2;
+                My_a := a(2 downto 0) & '0';
                 My_a(My_N-1) := SR_IN_L;
-                s <= My_a;
-            when "0010" =>
-                SR_OUT_L <= a(My_N-1);
-                My_a := a*2;
-                My_a(0) := SR_IN_R;
-                s <= My_a;
-            when "0011" =>
-                SR_OUT_R <= a(0);
-                My_a := a/2;
-                My_a(My_N-1) := SR_IN_L;
-                s <= My_a;
+                s <= "0000" & My_a;
             when "0100" =>
-                SR_OUT_L <= b(My_N-1);
-                My_b := b*2;
-                My_b(0) := SR_IN_R;
-                s <= My_b;
-            when "0101" => 
-                s <= a;
+                SR_OUT_L <= a(My_N-1);
+                My_a := a(2 downto 0) & '0';
+                My_a(0) := SR_IN_R;
+                s <= "0000" & My_a;
+            when "0101" =>
+                SR_OUT_R <= b(0);
+                My_b := b(2 downto 0) & '0';
+                My_b(My_N-1) := SR_IN_L;
+                s <= "0000" & My_b;
             when "0110" =>
-                s <= b;
-            when "0111" =>
-                s <= not a;
+                SR_OUT_L <= b(My_N-1);
+                My_b := b(2 downto 0) & '0';
+                My_b(0) := SR_IN_R;
+                s <=  "0000" & My_b;
+            when "0111" => 
+                s <= resize(a, 2*N);
             when "1000" =>
-                s <= not b;
+                s <= resize(b, 2*N);
             when "1001" =>
-                s <= resize(a and b, 2*N);
+                s <= not resize(a, 2*N);
             when "1010" =>
+                s <= not resize(b, 2*N);
+            when "1011" =>
+                s <= resize(a and b, 2*N);
+            when "1100" =>
                 s <= resize(a or b, 2*N);
-            when "1011" => 
-                s <= a xor b;
-            when "1100" => 
+            when "1101" => 
+                s <= resize(a xor b, 2*N);
+            when "1110" => 
                 if SR_IN_R = '1' then
-                    s <= a + b + "1";
+                    s <= resize(a + b, 2*N);
                 else
-                    s <= a + b;
+                    s <= resize(a + b, 2*N);
                 end if;
-            when "1101" =>
-                s <= a + b;
-            when "1110" =>
-                s <= a - b;
             when "1111" =>
-                s <= a * b;
+                s <= resize(a + b, 2*N);
+            when "0001" =>
+                s <= resize(a - b, 2*N);
+            when "0010" =>
+                s <= resize(a * b, 2*N);
             when others => 
                 s <= (others => '0');
         end case;
