@@ -2,11 +2,11 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.NUMERIC_STD.ALL;
 
-entity ALUTB is
-end ALUTB;
+entity ALUCoreTB is
+end ALUCoreTB;
 
-architecture ALUTB_Arch of ALUTB is
-    component ALU is
+architecture ALUCoreTB_Arch of ALUCoreTB is
+    component ALUCore is
         generic(N : integer);
         port(
             a, b: in signed(N-1 downto 0);
@@ -17,14 +17,14 @@ architecture ALUTB_Arch of ALUTB is
             SR_OUT_R : out std_logic := '0';
             SR_OUT_L : out std_logic := '0'
         );
-    end component ALU;
+    end component ALUCore;
     signal a_sim, b_sim : signed(3 downto 0);
     signal s_sim : signed(7 downto 0);
     signal sel_sim : std_logic_vector(3 downto 0);
     signal SR_IN_R_sim, SR_IN_L_sim, SR_OUT_R_sim, SR_OUT_L_sim : std_logic;
 begin
     
-    ALU1: ALU 
+    ALU1: ALUCore
         generic map(N => 4) port map(
         a => a_sim,
         b => b_sim,
@@ -52,4 +52,4 @@ begin
         wait for 100 us;
         wait;
     end process test;
-end ALUTB_Arch;
+end ALUCoreTB_Arch;

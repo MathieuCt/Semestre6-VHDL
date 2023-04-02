@@ -3,7 +3,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.std_logic_unsigned.all;
 use IEEE.NUMERIC_STD.ALL;
 
-entity ALU is
+entity ALUCore is
     generic (N: integer := 4);
     port (
         a, b: in signed(N-1 downto 0);
@@ -14,8 +14,8 @@ entity ALU is
         SR_OUT_R : out std_logic := '0';
         SR_OUT_L : out std_logic := '0'
     );
-end ALU;
-architecture ALU_dataFlow of ALU is
+end ALUCore;
+architecture ALUCore_dataFlow of ALUCore is
 begin
     main : process (a, b, sel)
     variable My_a, My_b : signed(N-1 downto 0);
@@ -76,4 +76,4 @@ begin
         end case;
     end process main;
 
-end ALU_dataFlow;
+end ALUCore_dataFlow;

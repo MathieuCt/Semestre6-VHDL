@@ -1,0 +1,1050 @@
+# vcom -work work -2008 -explicit -stats=none {C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP/Projet/ALU.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ALU
+# -- Compiling architecture ALU_arch of ALU
+# 
+# 
+# vcom -work work -2008 -explicit -stats=none {C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP/Projet/ALUCore.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ALUCore
+# -- Compiling architecture ALUCore_dataFlow of ALUCore
+# 
+# 
+# vcom -work work -2008 -explicit -stats=none {C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP/Projet/ALUCoreTB.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ALUCoreTB
+# -- Compiling architecture ALUCoreTB_Arch of ALUCoreTB
+# 
+# 
+# vcom -work work -2008 -explicit -stats=none {C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP/Projet/bufferD.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity bufferNbits
+# -- Compiling architecture buffer_Arch of bufferNbits
+# 
+# 
+# vcom -work work -2008 -explicit -stats=none {C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP/Projet/MEM_INSTRUCTIONS.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity MEM_INSTRUCTIONS
+# -- Compiling architecture MEM_INSTRUCTIONS_Arch of MEM_INSTRUCTIONS
+# 
+# 
+# vcom -work work -2008 -explicit -stats=none {C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP/Projet/MEM_INSTRUCTIONSTB.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity MEM_INSTRUCTIONSTB
+# -- Compiling architecture MEM_INSTRUCTIONSTB_Arch of MEM_INSTRUCTIONSTB
+# 
+# 
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.mem_instructionstb
+# vsim -gui work.mem_instructionstb 
+# Start time: 00:47:38 on Apr 03,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mem_instructionstb(mem_instructionstb_arch)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.mem_instructions(mem_instructions_arch)
+add wave -position insertpoint sim:/mem_instructionstb/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Mathieu  Hostname: LAPTOP-3D5V21O8  ProcessID: 22400
+#           Attempting to use alternate WLF file "./wlftn1fi8w".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftn1fi8w
+run
+run
+run
+run
+run
+run
+run -all
+run -all
+run -all
+run -all
+run -all
+run -all
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run -all
+run -all
+run -all
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run -all
+restart
+run
+run
+run
+run
+run
+restart
+run -all
+run -all
+run -all
+run -all
+run -all
+run -all
+run -all
+run -all
+run -all
+run -all
+run -all
+run -all
+run -all
+run -all
+restart
+# Loading work.mem_instructionstb(mem_instructionstb_arch)
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+# Loading work.mem_instructions(mem_instructions_arch)
+run -all
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+restart
+run -all
+restart
+# Loading work.mem_instructions(mem_instructions_arch)
+run
+run
+# ** Note: pt = 0
+#    Time: 200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+run
+run
+# ** Note: pt = 1
+#    Time: 400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+run
+run
+# ** Note: pt = 2
+#    Time: 600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+run
+run
+# ** Note: pt = 3
+#    Time: 800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+restart
+# Loading work.mem_instructions(mem_instructions_arch)
+run -all
+# ** Note: pt = 0
+#    Time: 200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 1
+#    Time: 400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 15
+#    Time: 400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 15
+#    Time: 400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 3
+#    Time: 400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 2
+#    Time: 600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 1
+#    Time: 600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 12
+#    Time: 600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 3
+#    Time: 800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 3
+#    Time: 800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 2
+#    Time: 800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 4
+#    Time: 1 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 1 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 1 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 1
+#    Time: 1 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 5
+#    Time: 1200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 1200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 1200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 1200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 6
+#    Time: 1400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 1400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 1400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 1400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 7
+#    Time: 1600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 1600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 1600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 1600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 8
+#    Time: 1800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 1800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 1800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 1800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 9
+#    Time: 2 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 2 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 2 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 2 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 10
+#    Time: 2200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 2200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 2200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 2200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 11
+#    Time: 2400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 2400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 2400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 2400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 12
+#    Time: 2600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 2600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 2600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 2600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 13
+#    Time: 2800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 2800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 2800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 2800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 14
+#    Time: 3 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 3 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 3 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 3 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 15
+#    Time: 3200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 3200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 3200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 3200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 16
+#    Time: 3400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 3400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 3400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 3400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 17
+#    Time: 3600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 3600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 3600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 3600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 18
+#    Time: 3800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 3800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 3800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 3800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 19
+#    Time: 4 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 4 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 4 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 4 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 20
+#    Time: 4200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 4200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 4200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 4200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 21
+#    Time: 4400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 4400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 4400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 4400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 22
+#    Time: 4600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 4600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 4600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 4600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 23
+#    Time: 4800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 4800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 4800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 4800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 24
+#    Time: 5 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 5 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 5 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 5 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 25
+#    Time: 5200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 5200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 5200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 5200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 26
+#    Time: 5400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 5400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 5400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 5400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 27
+#    Time: 5600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 5600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 5600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 5600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 28
+#    Time: 5800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 5800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 5800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 5800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 29
+#    Time: 6 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 6 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 6 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 6 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 30
+#    Time: 6200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 6200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 6200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 6200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 31
+#    Time: 6400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 6400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 6400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 6400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 32
+#    Time: 6600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 6600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 6600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 6600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 33
+#    Time: 6800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 6800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 6800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 6800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 34
+#    Time: 7 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 7 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 7 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 7 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 35
+#    Time: 7200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 7200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 7200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 7200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 36
+#    Time: 7400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 7400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 7400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 7400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 37
+#    Time: 7600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 7600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 7600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 7600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 38
+#    Time: 7800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 7800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 7800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 7800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 39
+#    Time: 8 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 8 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 8 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 8 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 40
+#    Time: 8200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 8200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 8200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 8200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 41
+#    Time: 8400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 8400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 8400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 8400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 42
+#    Time: 8600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 8600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 8600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 8600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 43
+#    Time: 8800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 8800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 8800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 8800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 44
+#    Time: 9 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 9 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 9 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 9 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 45
+#    Time: 9200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 9200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 9200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 9200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 46
+#    Time: 9400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 9400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 9400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 9400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 47
+#    Time: 9600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 9600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 9600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 9600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 48
+#    Time: 9800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 9800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 9800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 9800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 49
+#    Time: 10 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 10 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 10 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 10 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 50
+#    Time: 10200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 10200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 10200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 10200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 51
+#    Time: 10400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 10400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 10400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 10400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 52
+#    Time: 10600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 10600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 10600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 10600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 53
+#    Time: 10800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 10800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 10800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 10800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 54
+#    Time: 11 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 11 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 11 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 11 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 55
+#    Time: 11200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 11200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 11200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 11200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 56
+#    Time: 11400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 11400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 11400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 11400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 57
+#    Time: 11600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 11600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 11600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 11600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 58
+#    Time: 11800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 11800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 11800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 11800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 59
+#    Time: 12 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 12 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 12 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 12 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 60
+#    Time: 12200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 12200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 12200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 12200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 61
+#    Time: 12400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 12400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 12400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 12400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 62
+#    Time: 12600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 12600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 12600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 12600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 63
+#    Time: 12800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 12800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 12800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 12800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 64
+#    Time: 13 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 13 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 13 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 13 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 65
+#    Time: 13200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 13200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 13200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 13200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 66
+#    Time: 13400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 13400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 13400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 13400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 67
+#    Time: 13600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 13600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 13600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 13600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 68
+#    Time: 13800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 13800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 13800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 13800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 69
+#    Time: 14 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 14 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 14 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 14 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 70
+#    Time: 14200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 14200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 14200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 14200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 71
+#    Time: 14400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 14400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 14400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 14400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 72
+#    Time: 14600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 14600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 14600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 14600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 73
+#    Time: 14800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 14800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 14800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 14800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 74
+#    Time: 15 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 15 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 15 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 15 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 75
+#    Time: 15200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 15200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 15200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 15200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 76
+#    Time: 15400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 15400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 15400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 15400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 77
+#    Time: 15600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 15600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 15600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 15600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 78
+#    Time: 15800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 15800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 15800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 15800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 79
+#    Time: 16 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 16 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 16 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 16 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 80
+#    Time: 16200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 16200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 16200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 16200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 81
+#    Time: 16400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 16400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 16400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 16400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 82
+#    Time: 16600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 16600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 16600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 16600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 83
+#    Time: 16800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 16800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 16800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 16800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 84
+#    Time: 17 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 17 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 17 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 17 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 85
+#    Time: 17200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 17200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 17200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 17200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 86
+#    Time: 17400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 17400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 17400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 17400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 87
+#    Time: 17600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 17600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 17600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 17600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 88
+#    Time: 17800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 17800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 17800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 17800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 89
+#    Time: 18 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 18 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 18 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 18 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 90
+#    Time: 18200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 18200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 18200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 18200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 91
+#    Time: 18400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 18400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 18400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 18400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 92
+#    Time: 18600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 18600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 18600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 18600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 93
+#    Time: 18800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 18800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 18800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 18800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 94
+#    Time: 19 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 19 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 19 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 19 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 95
+#    Time: 19200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 19200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 19200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 19200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 96
+#    Time: 19400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 19400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 19400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 19400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 97
+#    Time: 19600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 19600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 19600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 19600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: pt = 98
+#    Time: 19800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 19800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 19800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 19800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+restart
+run
+run
+# ** Note: pt = 0
+#    Time: 200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 200 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+run
+run
+# ** Note: pt = 1
+#    Time: 400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 15
+#    Time: 400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 15
+#    Time: 400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 3
+#    Time: 400 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+run
+run
+# ** Note: pt = 2
+#    Time: 600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 1
+#    Time: 600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 12
+#    Time: 600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 0
+#    Time: 600 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+run
+run
+# ** Note: pt = 3
+#    Time: 800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 3
+#    Time: 800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 2
+#    Time: 800 us  Iteration: 1  Instance: /mem_instructionstb/MEM
+run
+run
+# ** Note: pt = 4
+#    Time: 1 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_FCT = 0
+#    Time: 1 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_ROUTE = 0
+#    Time: 1 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+# ** Note: SEL_OUT = 1
+#    Time: 1 ms  Iteration: 1  Instance: /mem_instructionstb/MEM
+run
