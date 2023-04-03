@@ -6,7 +6,9 @@ entity ALU is
     port(
         SEL_ROUTE : in std_logic_vector(3 downto 0);
         SEL_OUT : in std_logic_vector(1 downto 0);
+        SEL_FCT : in std_logic_vector(3 downto 0);
         Clock : in std_logic;
+        reset : in std_logic;
         SR_IN_L : in std_logic;
         SR_IN_R : in std_logic;
         A_IN : in signed(3 downto 0);
@@ -23,11 +25,11 @@ architecture ALU_arch of ALU is
         port(
             e : in std_logic_vector (N-1 downto 0);
             reset : in std_logic;
-            clock : in std_logic;
+            Clock : in std_logic;
             s : out std_logic_vector (N-1 downto 0)
         );
     end component;
-    component ALU is
+    component ALUCore is
         generic(N : integer);
         port(
             a, b: in signed(N-1 downto 0);
@@ -53,12 +55,12 @@ signal myres : signed(7 downto 0);
 signal mySR_IN_R, mySR_IN_L : std_logic;
 signal mySR_OUT_R, mySR_OUT_L : std_logic;
 begin
-    ALU1 : ALU
+    ALU1 : ALUCore
         generic map(N => 4)
         port map(
             a => mya,
             b => myb,
-            sel => mysel,
+            sel => SEL_FCT,
             s => myres,
             SR_IN_R => mySR_IN_R,
             SR_IN_L => mySR_IN_L,

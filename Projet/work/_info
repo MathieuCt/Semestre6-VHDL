@@ -53,38 +53,38 @@ R12
 !i113 1
 R13
 Ealu
-Z14 w1680039432
+Z14 w1680541081
 Z15 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
 R3
 R4
-!i122 133
+!i122 160
 R5
-Z16 8C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP/Projet/ALU.vhd
-Z17 FC:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP/Projet/ALU.vhd
+Z16 8.\ALU.vhd
+Z17 F.\ALU.vhd
 l0
 L5 1
-Vi:>5Kz`I`TzM?hCUcQ;kU0
-!s100 LbN;<zbA5L83B:VfobaF61
+Vgg7nKSBQfP>;S8iVX7cMB2
+!s100 ^M2WJkFRmFnmz0;X]>0K62
 R8
 33
-Z18 !s110 1680505546
+Z18 !s110 1680541088
 !i10b 1
-Z19 !s108 1680505545.000000
-Z20 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP/Projet/ALU.vhd|
-Z21 !s107 C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP/Projet/ALU.vhd|
+Z19 !s108 1680541088.000000
+Z20 !s90 -2008|.\ALU.vhd|
+Z21 !s107 .\ALU.vhd|
 !i113 1
-Z22 o-work work -2008 -explicit
+Z22 o-2008
 R13
 Aalu_arch
 R15
 R3
 R4
-DEx4 work 3 alu 0 22 i:>5Kz`I`TzM?hCUcQ;kU0
-!i122 133
-l55
-L20 151
-VbL:QPU3fePQWU=_TfoP;_2
-!s100 5nBjbif:BfPc_4V3S24z_2
+DEx4 work 3 alu 0 22 gg7nKSBQfP>;S8iVX7cMB2
+!i122 160
+l57
+L22 151
+VmIzhVZPOfLIlkV4AE9d@d0
+!s100 d^S;Vkg0RSb8T1X]:FZA83
 R8
 33
 R18
@@ -137,13 +137,13 @@ VOBcoSiV]MI@[]dM=eCb553
 !s100 H>8jz>A9d7LP>e@YR5UXa3
 R8
 33
-R18
+Z28 !s110 1680505546
 !i10b 1
-Z28 !s108 1680505546.000000
-Z29 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP/Projet/ALUCore.vhd|
-Z30 !s107 C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP/Projet/ALUCore.vhd|
+Z29 !s108 1680505546.000000
+Z30 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP/Projet/ALUCore.vhd|
+Z31 !s107 C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP/Projet/ALUCore.vhd|
 !i113 1
-R22
+Z32 o-work work -2008 -explicit
 R13
 Aalucore_dataflow
 R15
@@ -159,36 +159,36 @@ VjgG?CFV0YQ40<^h`eK=k70
 !s100 N]0?SCB8D>6LUT]KM6eV<2
 R8
 33
-R18
-!i10b 1
 R28
+!i10b 1
 R29
 R30
+R31
 !i113 1
-R22
+R32
 R13
 Ealucoretb
-Z31 w1680461478
+Z33 w1680461478
 R15
 R3
 R4
 !i122 135
 R5
-Z32 8C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP/Projet/ALUCoreTB.vhd
-Z33 FC:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP/Projet/ALUCoreTB.vhd
+Z34 8C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP/Projet/ALUCoreTB.vhd
+Z35 FC:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP/Projet/ALUCoreTB.vhd
 l0
 L5 1
 V=k>ZA2I=;J<mNfknRnJF83
 !s100 JTPB>JHloXBh_gPh6lDzl2
 R8
 33
-R18
-!i10b 1
 R28
-Z34 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP/Projet/ALUCoreTB.vhd|
-Z35 !s107 C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP/Projet/ALUCoreTB.vhd|
+!i10b 1
+R29
+Z36 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP/Projet/ALUCoreTB.vhd|
+Z37 !s107 C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP/Projet/ALUCoreTB.vhd|
 !i113 1
-R22
+R32
 R13
 Aalucoretb_arch
 R15
@@ -197,39 +197,39 @@ R4
 DEx4 work 9 alucoretb 0 22 =k>ZA2I=;J<mNfknRnJF83
 !i122 135
 l25
-Z36 L8 48
+Z38 L8 48
 V_n3h=Nza1>Q67HeJj3K<42
 !s100 V]XN8UIhNWcoC0<C1aR:[3
 R8
 33
-R18
-!i10b 1
 R28
-R34
-R35
+!i10b 1
+R29
+R36
+R37
 !i113 1
-R22
+R32
 R13
 Ealutb
-Z37 w1679936510
+Z39 w1679936510
 R15
 R3
 R4
 !i122 17
 R24
-Z38 8.\ALUTB.vhd
-Z39 F.\ALUTB.vhd
+Z40 8.\ALUTB.vhd
+Z41 F.\ALUTB.vhd
 l0
 L5 1
 V1M[?;SDA^fFOKbfEi5Cdg3
 !s100 lSaU7;1S=l1J0O0GdQ^N;1
 R8
 32
-Z40 !s110 1679936756
+Z42 !s110 1679936756
 !i10b 1
-Z41 !s108 1679936756.000000
-Z42 !s90 .\ALUTB.vhd|
-Z43 !s107 .\ALUTB.vhd|
+Z43 !s108 1679936756.000000
+Z44 !s90 .\ALUTB.vhd|
+Z45 !s107 .\ALUTB.vhd|
 !i113 1
 R13
 Aalutb_arch
@@ -239,41 +239,41 @@ R4
 DEx4 work 5 alutb 0 22 1M[?;SDA^fFOKbfEi5Cdg3
 !i122 17
 l25
-R36
+R38
 V3g:2Pbi]hkG4Tl?=iBXcW1
 !s100 X9QI`e7z;mZiIEJOXk`0H2
 R8
 32
-R40
-!i10b 1
-R41
 R42
+!i10b 1
 R43
+R44
+R45
 !i113 1
 R13
 Ebuffernbits
-Z44 w1680461248
+Z46 w1680461248
 R1
 R2
 R3
 R4
 !i122 136
 R5
-Z45 8C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP/Projet/bufferD.vhd
-Z46 FC:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP/Projet/bufferD.vhd
+Z47 8C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP/Projet/bufferD.vhd
+Z48 FC:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP/Projet/bufferD.vhd
 l0
 L5 1
 VTAeConM`z6<aj4j=UCh:[0
 !s100 ddUSi7R5P?AR28m4CG9eM1
 R8
 33
-R18
-!i10b 1
 R28
-Z47 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP/Projet/bufferD.vhd|
-Z48 !s107 C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP/Projet/bufferD.vhd|
+!i10b 1
+R29
+Z49 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP/Projet/bufferD.vhd|
+Z50 !s107 C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP/Projet/bufferD.vhd|
 !i113 1
-R22
+R32
 R13
 Abuffer_arch
 R1
@@ -288,11 +288,58 @@ V`TG]4Q8GS:5[FDD:kU7Tl2
 !s100 _h`ZCGB^omJMI0W;7DIN@3
 R8
 33
-R18
-!i10b 1
 R28
-R47
-R48
+!i10b 1
+R29
+R49
+R50
+!i113 1
+R32
+R13
+Emain
+Z51 w1680542054
+R15
+R1
+R2
+R3
+R4
+!i122 174
+R5
+Z52 8.\main.vhd
+Z53 F.\main.vhd
+l0
+L6 1
+V@^VPK8TQER[D75nC<Scn^3
+!s100 oj[;i8@FNaanQ[kb>HSKY2
+R8
+33
+Z54 !s110 1680542056
+!i10b 1
+Z55 !s108 1680542056.000000
+Z56 !s90 -2008|.\main.vhd|
+Z57 !s107 .\main.vhd|
+!i113 1
+R22
+R13
+Amain_arch
+R15
+R1
+R2
+R3
+R4
+Z58 DEx4 work 4 main 0 22 @^VPK8TQER[D75nC<Scn^3
+!i122 174
+l67
+Z59 L20 89
+VW4noczb5eeO6=5=jE<NAk3
+!s100 KF>=W47Wo5oUg]SaFnKjc1
+R8
+33
+R54
+!i10b 1
+R55
+R56
+R57
 !i113 1
 R22
 R13
@@ -319,7 +366,7 @@ R8
 !i113 1
 R13
 Emem_instructions
-Z49 w1680508179
+Z60 w1680508179
 R15
 R1
 R2
@@ -327,21 +374,21 @@ R3
 R4
 !i122 150
 R5
-Z50 8C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP/Projet/MEM_INSTRUCTIONS.vhd
-Z51 FC:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP/Projet/MEM_INSTRUCTIONS.vhd
+Z61 8C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP/Projet/MEM_INSTRUCTIONS.vhd
+Z62 FC:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP/Projet/MEM_INSTRUCTIONS.vhd
 l0
 L7 1
 VH10528ej49V^QLF6FEDRk2
 !s100 VR0aj?bS45GSK<ADid=Rc0
 R8
 33
-Z52 !s110 1680508188
+Z63 !s110 1680508188
 !i10b 1
-Z53 !s108 1680508188.000000
-Z54 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP/Projet/MEM_INSTRUCTIONS.vhd|
-Z55 !s107 C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP/Projet/MEM_INSTRUCTIONS.vhd|
+Z64 !s108 1680508188.000000
+Z65 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP/Projet/MEM_INSTRUCTIONS.vhd|
+Z66 !s107 C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP/Projet/MEM_INSTRUCTIONS.vhd|
 !i113 1
-R22
+R32
 R13
 Amem_instructions_arch
 R15
@@ -349,7 +396,7 @@ R1
 R2
 R3
 R4
-Z56 DEx4 work 16 mem_instructions 0 22 H10528ej49V^QLF6FEDRk2
+DEx4 work 16 mem_instructions 0 22 H10528ej49V^QLF6FEDRk2
 !i122 150
 l150
 L17 149
@@ -357,36 +404,36 @@ V<m=c5iIAAgokm6B5?VG`a3
 !s100 YOZF^:JjmbOinXog]Fcj=0
 R8
 33
-R52
+R63
 !i10b 1
-R53
-R54
-R55
+R64
+R65
+R66
 !i113 1
-R22
+R32
 R13
 Emem_instructionstb
-Z57 w1680504630
+Z67 w1680504630
 R15
 R3
 R4
 !i122 138
 R5
-Z58 8C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP/Projet/MEM_INSTRUCTIONSTB.vhd
-Z59 FC:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP/Projet/MEM_INSTRUCTIONSTB.vhd
+Z68 8C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP/Projet/MEM_INSTRUCTIONSTB.vhd
+Z69 FC:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP/Projet/MEM_INSTRUCTIONSTB.vhd
 l0
 L5 1
 VADzR@];Kg`DRb=h5911bc0
 !s100 MCS=j;PN@6:lhAFG[KA^i3
 R8
 33
-Z60 !s110 1680505547
+Z70 !s110 1680505547
 !i10b 1
-Z61 !s108 1680505547.000000
-Z62 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP/Projet/MEM_INSTRUCTIONSTB.vhd|
-Z63 !s107 C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP/Projet/MEM_INSTRUCTIONSTB.vhd|
+Z71 !s108 1680505547.000000
+Z72 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP/Projet/MEM_INSTRUCTIONSTB.vhd|
+Z73 !s107 C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP/Projet/MEM_INSTRUCTIONSTB.vhd|
 !i113 1
-R22
+R32
 R13
 Amem_instructionstb_arch
 R15
@@ -400,16 +447,16 @@ V:B>?h`V7UkB`En9l]hE@i1
 !s100 994a76UG6k2a_keOJ>AVS3
 R8
 33
-R60
+R70
 !i10b 1
-R61
-R62
-R63
+R71
+R72
+R73
 !i113 1
-R22
+R32
 R13
 Emyaddnbitstb
-Z64 w1677241124
+Z74 w1677241124
 R1
 R2
 R15
@@ -417,8 +464,8 @@ R3
 R4
 !i122 0
 R5
-Z65 8.\AdderTB.vhd
-Z66 F.\AdderTB.vhd
+Z75 8.\AdderTB.vhd
+Z76 F.\AdderTB.vhd
 l0
 L6 1
 V7l29gkG`gBnn1l^N3]A^U3
@@ -454,25 +501,25 @@ R12
 !i113 1
 R13
 Eoppose
-Z67 w1678807101
+Z77 w1678807101
 R15
 R3
 R4
 !i122 3
 R5
-Z68 8.\Oppose.vhd
-Z69 F.\Oppose.vhd
+Z78 8.\Oppose.vhd
+Z79 F.\Oppose.vhd
 l0
 L5 1
 V4jWMNAGfzEJ]SOS:nAI;c3
 !s100 7L2`Ce5oQME?>2j=hE0Tm0
 R8
 32
-Z70 !s110 1678807103
+Z80 !s110 1678807103
 !i10b 1
-Z71 !s108 1678807103.000000
-Z72 !s90 .\Oppose.vhd|
-Z73 !s107 .\Oppose.vhd|
+Z81 !s108 1678807103.000000
+Z82 !s90 .\Oppose.vhd|
+Z83 !s107 .\Oppose.vhd|
 !i113 1
 R13
 Aoppose_dataflow
@@ -487,10 +534,10 @@ VfckKFl^akkhz6Mm4O<oal3
 !s100 3z4<5Q2h0`Zf9B?`ki`081
 R8
 32
-R70
+R80
 !i10b 1
-R71
-R72
-R73
+R81
+R82
+R83
 !i113 1
 R13
