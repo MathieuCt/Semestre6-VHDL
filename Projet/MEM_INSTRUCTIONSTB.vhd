@@ -31,6 +31,9 @@ begin
     clock_poc: process
     begin
         clock_sim <= '1';
+        report "(TB)SEL_FCT = " & integer'image(to_integer(unsigned(SEL_FCT_sim)));
+        report "(TB)SEL_ROUTE = " & integer'image(to_integer(unsigned(SEL_ROUTE_sim)));
+        report "(TB)SEL_OUT = " & integer'image(to_integer(unsigned(SEL_OUT_sim)));
         wait for 100 us;
         clock_sim <= '0';
         wait for 100 us;

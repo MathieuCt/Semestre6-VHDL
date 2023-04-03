@@ -19,10 +19,10 @@ architecture MEM_INSTRUCTIONS_Arch of MEM_INSTRUCTIONS is
     signal pt : integer range 0 to 127 := 0;
     constant MEM_INSTRUCTIONS: mem := (
         ("0000000000"),
-        ("1111111111"),
-        ("0001110000"),
-        ("0000001110"),
         ("0000000001"),
+        ("0000000010"),
+        ("0000000011"),
+        ("0000000100"),
         ("0000000000"),
         ("0000000000"),
         ("0000000000"),
@@ -154,13 +154,6 @@ begin
             if reset = '1' then
                 pt <= 0;
             else
-                report "pt = " & integer'image(pt);
-                report "SEL_FCT = " & integer'image(to_integer(unsigned(MEM_INSTRUCTIONS(pt)(9 downto 6))));
-                report "SEL_ROUTE = " & integer'image(to_integer(unsigned(MEM_INSTRUCTIONS(pt)(5 downto 2))));
-                report "SEL_OUT = " & integer'image(to_integer(unsigned(MEM_INSTRUCTIONS(pt)(1 downto 0))));
-                SEL_FCT <= MEM_INSTRUCTIONS(pt)(9 downto 6);
-                SEL_ROUTE <= MEM_INSTRUCTIONS(pt)(5 downto 2);
-                SEL_OUT <= MEM_INSTRUCTIONS(pt)(1 downto 0);
                 pt <= pt + 1;
             end if;
         end if;
