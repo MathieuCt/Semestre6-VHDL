@@ -5,9 +5,9 @@ use IEEE.NUMERIC_STD.ALL;
 
 entity ALUCore is
     port (
-        a, b: in unsigned(3 downto 0);
+        a_in, b_in: in std_logic_vector(3 downto 0);
         sel: in std_logic_vector(3 downto 0);
-        s : out unsigned(7 downto 0) := (others => '0');
+        s_out : out std_logic_vector (7 downto 0) := (others => '0');
         SR_IN_R : in std_logic;
         SR_IN_L : in std_logic;
         SR_OUT_R : out std_logic := '0';
@@ -15,7 +15,13 @@ entity ALUCore is
     );
 end ALUCore;
 architecture ALUCore_dataFlow of ALUCore is
+    signal a: unsigned(3 downto 0);
+    signal b: unsigned(3 downto 0);
+    signal s : unsigned(7 downto 0);
 begin
+    a <= unsigned(a_in);
+    b <= unsigned(b_in);
+    s_out <= std_logic_vector(s);
     main : process (a, b, sel)
     variable My_a, My_b : unsigned(3 downto 0);
     begin
