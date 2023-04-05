@@ -8,9 +8,9 @@ end ALUCoreTB;
 architecture ALUCoreTB_Arch of ALUCoreTB is
     component ALUCore is
         port(
-            a_in, b_in: in std_logic_vector(3 downto 0);
+            a, b: in std_logic_vector(3 downto 0);
             sel: in std_logic_vector(3 downto 0);
-            s_out : out std_logic_vector(7 downto 0) := (others => '0');
+            s : out std_logic_vector(7 downto 0) := (others => '0');
             SR_IN_R : in std_logic;
             SR_IN_L : in std_logic;
             SR_OUT_R : out std_logic := '0';
@@ -25,10 +25,10 @@ begin
     
     ALU1: ALUCore
         port map(
-        a_in => a_sim,
-        b_in => b_sim,
+        a => a_sim,
+        b => b_sim,
         sel => sel_sim,
-        s_out => s_sim,
+        s => s_sim,
         SR_IN_R => SR_IN_R_sim,
         SR_IN_L => SR_IN_L_sim,
         SR_OUT_R => SR_OUT_R_sim,
