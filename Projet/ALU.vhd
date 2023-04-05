@@ -11,11 +11,11 @@ entity ALU is
         reset : in std_logic;
         SR_IN_L : in std_logic;
         SR_IN_R : in std_logic;
-        A_IN : in signed(3 downto 0);
-        B_IN : in signed(3 downto 0);
+        A_IN : in std_logic_vector(3 downto 0);
+        B_IN : in std_logic_vector(3 downto 0);
         SR_OUT_L : out std_logic;
         SR_OUT_R : out std_logic;
-        RES_OUT : out signed(7 downto 0)
+        RES_OUT : out std_logic_vector(7 downto 0)
     );
 end ALU;
 
@@ -30,11 +30,10 @@ architecture ALU_arch of ALU is
         );
     end component;
     component ALUCore is
-        generic(N : integer);
         port(
-            a, b: in signed(N-1 downto 0);
+            a, b: in std_logic_vector(3 downto 0);
             sel: in std_logic_vector(3 downto 0);
-            s : out signed(2*N-1 downto 0) := (others => '0');
+            s : out std_logic_vector(7 downto 0) := (others => '0');
             SR_IN_R : in std_logic;
             SR_IN_L : in std_logic;
             SR_OUT_R : out std_logic := '0';
@@ -49,13 +48,13 @@ end record;
 signal Buffer_A_P, Buffer_B_P : bufferPortType(e(3 downto 0),s(3 downto 0));
 signal MEM_CACHE1_P, MEM_CACHE2_P : bufferPortType(e(7 downto 0), s(7 downto 0));
 signal SR_IN_R_BUFFER_P, SR_IN_L_BUFFER_P : bufferPortType(e(0 downto 0), s(0 downto 0));
-signal mya, myb : signed(3 downto 0);
+signal mya, myb : std_logic_vector(3 downto 0);
 signal mysel : std_logic_vector(3 downto 0);
-signal myres : signed(7 downto 0);
+signal myres : std_logic_vector(7 downto 0);
 signal mySR_IN_R, mySR_IN_L : std_logic;
 signal mySR_OUT_R, mySR_OUT_L : std_logic;
 begin
-    ALU1 : ALUCore
+    MyALUCore : ALUCore
         generic map(N => 4)
         port map(
             a => mya,
@@ -116,6 +115,8 @@ begin
             clock => clock,
             s => SR_IN_L_BUFFER_P.s
         );
+    mya <= Buffer_A_P.s;
+    myb <= Buffer_B_P.s;
     process(Clock)
     begin
         if rising_edge(Clock) then
@@ -151,22 +152,22 @@ begin
                 when "1110" =>
                     Buffer_B_P.e <= std_logic_vector(myres(7 downto 4));
                 when "1111" =>
-                    Buffer_A_P.e <= std_logic_vector(A_IN);
+                    Buffer_A_P.e <= A_IN;
                 when others =>
                     null;
             end case;
+        end if;
         case SEL_OUT is
             when "00" =>
                 RES_OUT <= (others => '0');
             when "01" =>
-                RES_OUT <= signed(MEM_CACHE1_P.s);
+                RES_OUT <= MEM_CACHE1_P.s;
             when "10" =>
-                RES_OUT <= signed(MEM_CACHE2_P.s);
+                RES_OUT <= MEM_CACHE2_P.s;
             when "11" =>
                 RES_OUT <= myres;
             when others =>
                 null;
         end case;
-        end if;
     end process;
 end ALU_arch;

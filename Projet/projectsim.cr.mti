@@ -1,0 +1,23 @@
+{C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP/projetsim/ALUTB.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP/projetsim/ALUTB.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity myUALtestbench
+-- Compiling architecture myUALtestbench_Arch of myUALtestbench
+
+} {} {}} {C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP/projetsim/ALUD.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Mathieu/OneDrive - Efrei/Semestre 6/vhdl/TP/projetsim/ALUD.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity myUAL
+-- Compiling architecture myUAL_DataFlow of myUAL
+
+} {} {}}

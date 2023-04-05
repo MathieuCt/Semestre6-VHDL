@@ -4,7 +4,7 @@ use IEEE.std_logic_unsigned.all;
 
 entity bufferNbits  is
     generic(
-        N : integer := 4
+        N : integer
         );
     port(
         e : in std_logic_vector (N-1 downto 0);

@@ -16,13 +16,13 @@ end MEM_INSTRUCTIONS;
 
 architecture MEM_INSTRUCTIONS_Arch of MEM_INSTRUCTIONS is
     type mem is array (0 to 127) of std_logic_vector(9 downto 0);
-    signal pt : integer range 0 to 127 := 0;
+    signal pt : integer range 0 to 127 := 0 ;
     constant MEM_INSTRUCTIONS: mem := (
         ("0000000000"),
-        ("0000000001"),
-        ("0000000010"),
-        ("0000000011"),
-        ("0000000100"),
+        ("0000111100"),
+        ("0000011100"),
+        ("0010000011"),
+        ("0000000000"),
         ("0000000000"),
         ("0000000000"),
         ("0000000000"),
@@ -150,7 +150,7 @@ architecture MEM_INSTRUCTIONS_Arch of MEM_INSTRUCTIONS is
 begin
     process(Clock)
     begin
-        if rising_edge(Clock) then
+        if falling_edge(Clock) then
             if reset = '1' then
                 pt <= 0;
             else
@@ -159,8 +159,8 @@ begin
         end if;
     end process;
 
-    SEL_ROUTE <= MEM_INSTRUCTIONS(pt)(9 downto 6);
-    SEL_FCT <= MEM_INSTRUCTIONS(pt)(5 downto 2);
+    SEL_FCT <= MEM_INSTRUCTIONS(pt)(9 downto 6);
+    SEL_ROUTE <= MEM_INSTRUCTIONS(pt)(5 downto 2);
     SEL_OUT <= MEM_INSTRUCTIONS(pt)(1 downto 0);
 end MEM_INSTRUCTIONS_Arch;
 

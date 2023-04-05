@@ -9,21 +9,22 @@ entity main is
         RESET : in std_logic;
         SR_IN_L : in std_logic;
         SR_IN_R : in std_logic;
-        A_IN : in signed(3 downto 0);
-        B_IN : in signed(3 downto 0);
+        A_IN : in std_logic_vector(3 downto 0);
+        B_IN : in std_logic_vector(3 downto 0);
         SR_OUT_L : out std_logic;
         SR_OUT_R : out std_logic;
-        RES_OUT : out signed(7 downto 0)
+        RES_OUT : out std_logic_vector(7 downto 0)
     );
 end main;
 
 architecture main_arch of main is 
     component bufferNbits is
+        generic(N : integer);
         port(
             Clock : in std_logic;
             RESET : in std_logic;
             e : in std_logic_vector;
-            s : in std_logic_vector
+            s : out std_logic_vector
         );
     end component;
     component ALU is
@@ -35,11 +36,11 @@ architecture main_arch of main is
             reset : in std_logic;
             SR_IN_L : in std_logic;
             SR_IN_R : in std_logic;
-            A_IN : in signed(3 downto 0);
-            B_IN : in signed(3 downto 0);
+            A_IN : in std_logic_vector(3 downto 0);
+            B_IN : in std_logic_vector(3 downto 0);
             SR_OUT_L : out std_logic;
             SR_OUT_R : out std_logic;
-            RES_OUT : out signed(7 downto 0)
+            RES_OUT : out std_logic_vector(7 downto 0)
         );
     end component;
     component MEM_INSTRUCTIONS is
@@ -59,19 +60,16 @@ architecture main_arch of main is
     signal MEM_SEL_FCT_P : bufferPortType(e(3 downto 0),s(3 downto 0));
     signal MEM_SEL_OUT_P : bufferPortType(e(1 downto 0),s(1 downto 0));
     signal mySEL_ROUTE : std_logic_vector(3 downto 0);
-    /* signal mySEL_FCTin : std_logic_vector(3 downto 0);
-    signal mySEL_FCTout : std_logic_vector(3 downto 0);
-    signal mySEL_OUTin : std_logic_vector(1 downto 0);
-    signal mySEL_OUTout : std_logic_vector(1 downto 0);
-    signal mySEL_ROUTE : std_logic_vector(3 downto 0);*/
+    signal invClock : std_logic;
     begin
+        invClock <= not Clock;
         MEM_INSTRUCTIONS1 : MEM_INSTRUCTIONS
         port map(
             Clock => Clock,
             reset => RESET,
             SEL_ROUTE => mySEL_ROUTE,
             SEL_FCT => MEM_SEL_FCT_P.e,
-            SEL_OUT => MEM_SEL_OUT_P.s
+            SEL_OUT => MEM_SEL_OUT_P.e
         );
 
         ALU1 : ALU
@@ -105,4 +103,5 @@ architecture main_arch of main is
             clock => Clock,
             s => MEM_SEL_OUT_P.s
         );
+
     end main_arch;
