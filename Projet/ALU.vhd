@@ -157,17 +157,19 @@ begin
                     null;
             end case;
         end if;
-        case SEL_OUT is
-            when "00" =>
-                RES_OUT <= (others => '0');
-            when "01" =>
-                RES_OUT <= MEM_CACHE1_P.s;
-            when "10" =>
-                RES_OUT <= MEM_CACHE2_P.s;
-            when "11" =>
-                RES_OUT <= myres;
-            when others =>
-                null;
-        end case;
+        if falling_edge(Clock) then
+            case SEL_OUT is
+                when "00" =>
+                    RES_OUT <= (others => '0');
+                when "01" =>
+                    RES_OUT <= MEM_CACHE1_P.s;
+                when "10" =>
+                    RES_OUT <= MEM_CACHE2_P.s;
+                when "11" =>
+                    RES_OUT <= myres;
+                when others =>
+                    null;
+            end case;
+        end if;
     end process;
 end ALU_arch;

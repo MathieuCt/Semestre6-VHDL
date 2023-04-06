@@ -30,7 +30,7 @@ architecture mainTB_arch of mainTB is
     signal SR_OUT_L_sim : std_logic;
     signal SR_OUT_R_sim : std_logic;
     signal RES_OUT_sim : std_logic_vector(7 downto 0);
-    signal cpt : integer := 0;
+    signal cpt : integer := 1;
     begin 
         mainComponent : main
             port map(

@@ -3,17 +3,17 @@ Ce fichier contient les instruction binaires pour initialiser la mémoire d'inst
 Fonction 1 : RES_OUT_1 = (A mult. B)
 0000111100 Charger A dans buffer A
 0000011100 Charger B dans buffer B 
-0010(0000)11 Multiplication de A et B (on ne sait pas quoi mettre dans SEL_ROUTE) et afficher
+0010000011 Multiplication de A et B (on ne sait pas quoi mettre dans SEL_ROUTE) et afficher
 
 
 Fonction 2 : RES_OUT_2 = (A add. B) xnorA 
-0000111100 Charger A dans buffer A
-0000011100 Charger B dans buffer B
-1011100000 Addition de A et B On stocke dans mem_cache_1 et pas afficher
-0000100100 Charger mem_cache_1 dans buffer B sur 4 bits poids faibles
-1101000000 Opération XOR et stockage dans mem_cache_2 et pas afficher
-0000000100 Charger mem_cache_2 dans buffer A
-1010(0000)11 Opération Not sur buffer A et afficher
+0000111100 Charger A dans buffer A  
+0000011100 Charger B dans buffer B 
+1111000011 Faire l'addition de A et B
+0000110100 Stockage de Resultat dans Buffer_B
+1101000011 Opération XOR
+0000010100 Stockage de S dans Buffer_A et pas afficher
+1001000011 Opération Not sur buffer A et afficher
 
 Fonction 3 : RES_OUT_3 = (A0and B1) or (A1and B0)
 SEL FCT : 1011 -> 1100 1011 SEL_ROUTE : RES_OUT : 11
