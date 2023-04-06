@@ -4494,3 +4494,2219 @@ run -all
 # HDL call sequence:
 # Stopped at ./MEM_INSTRUCTIONS.vhd 157 Process line__151
 # 
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.mem_instructions(mem_instructions_arch)
+# ** Warning: (vsim-8683) Uninitialized out port /maintb/mainComponent/ALU1/SR_OUT_L has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /maintb/mainComponent/ALU1/SR_OUT_R has no driver.
+# This port will contribute value (U) to the signal network.
+run -all
+# ** Note: cpt :1
+#    Time: 0 ps  Iteration: 0  Instance: /maintb
+# ** Note: cpt :2
+#    Time: 200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :3
+#    Time: 400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :4
+#    Time: 600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :5
+#    Time: 800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :6
+#    Time: 1 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :7
+#    Time: 1200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :8
+#    Time: 1400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :9
+#    Time: 1600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :10
+#    Time: 1800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :11
+#    Time: 2 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :12
+#    Time: 2200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :13
+#    Time: 2400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :14
+#    Time: 2600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :15
+#    Time: 2800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :16
+#    Time: 3 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :17
+#    Time: 3200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :18
+#    Time: 3400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :19
+#    Time: 3600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :20
+#    Time: 3800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :21
+#    Time: 4 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :22
+#    Time: 4200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :23
+#    Time: 4400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :24
+#    Time: 4600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :25
+#    Time: 4800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :26
+#    Time: 5 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :27
+#    Time: 5200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :28
+#    Time: 5400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :29
+#    Time: 5600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :30
+#    Time: 5800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :31
+#    Time: 6 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :32
+#    Time: 6200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :33
+#    Time: 6400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :34
+#    Time: 6600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :35
+#    Time: 6800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :36
+#    Time: 7 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :37
+#    Time: 7200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :38
+#    Time: 7400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :39
+#    Time: 7600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :40
+#    Time: 7800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :41
+#    Time: 8 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :42
+#    Time: 8200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :43
+#    Time: 8400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :44
+#    Time: 8600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :45
+#    Time: 8800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :46
+#    Time: 9 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :47
+#    Time: 9200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :48
+#    Time: 9400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :49
+#    Time: 9600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :50
+#    Time: 9800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :51
+#    Time: 10 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :52
+#    Time: 10200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :53
+#    Time: 10400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :54
+#    Time: 10600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :55
+#    Time: 10800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :56
+#    Time: 11 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :57
+#    Time: 11200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :58
+#    Time: 11400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :59
+#    Time: 11600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :60
+#    Time: 11800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :61
+#    Time: 12 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :62
+#    Time: 12200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :63
+#    Time: 12400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :64
+#    Time: 12600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :65
+#    Time: 12800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :66
+#    Time: 13 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :67
+#    Time: 13200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :68
+#    Time: 13400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :69
+#    Time: 13600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :70
+#    Time: 13800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :71
+#    Time: 14 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :72
+#    Time: 14200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :73
+#    Time: 14400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :74
+#    Time: 14600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :75
+#    Time: 14800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :76
+#    Time: 15 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :77
+#    Time: 15200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :78
+#    Time: 15400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :79
+#    Time: 15600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :80
+#    Time: 15800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :81
+#    Time: 16 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :82
+#    Time: 16200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :83
+#    Time: 16400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :84
+#    Time: 16600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :85
+#    Time: 16800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :86
+#    Time: 17 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :87
+#    Time: 17200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :88
+#    Time: 17400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :89
+#    Time: 17600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :90
+#    Time: 17800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :91
+#    Time: 18 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :92
+#    Time: 18200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :93
+#    Time: 18400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :94
+#    Time: 18600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :95
+#    Time: 18800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :96
+#    Time: 19 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :97
+#    Time: 19200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :98
+#    Time: 19400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :99
+#    Time: 19600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :100
+#    Time: 19800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :101
+#    Time: 20 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :102
+#    Time: 20200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :103
+#    Time: 20400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :104
+#    Time: 20600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :105
+#    Time: 20800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :106
+#    Time: 21 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :107
+#    Time: 21200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :108
+#    Time: 21400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :109
+#    Time: 21600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :110
+#    Time: 21800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :111
+#    Time: 22 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :112
+#    Time: 22200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :113
+#    Time: 22400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :114
+#    Time: 22600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :115
+#    Time: 22800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :116
+#    Time: 23 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :117
+#    Time: 23200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :118
+#    Time: 23400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :119
+#    Time: 23600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :120
+#    Time: 23800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :121
+#    Time: 24 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :122
+#    Time: 24200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :123
+#    Time: 24400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :124
+#    Time: 24600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :125
+#    Time: 24800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :126
+#    Time: 25 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :127
+#    Time: 25200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :128
+#    Time: 25400 us  Iteration: 0  Instance: /maintb
+# ** Fatal: (vsim-3421) Value 128 is out of range 0 to 127.
+#    Time: 25500 us  Iteration: 1  Process: /maintb/mainComponent/MEM_INSTRUCTIONS1/line__151 File: ./MEM_INSTRUCTIONS.vhd Line: 157
+# Fatal error in Process line__151 at ./MEM_INSTRUCTIONS.vhd line 157
+# 
+# HDL call sequence:
+# Stopped at ./MEM_INSTRUCTIONS.vhd 157 Process line__151
+# 
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.main(main_arch)
+# Loading work.mem_instructions(mem_instructions_arch)
+# ** Warning: (vsim-8683) Uninitialized out port /maintb/mainComponent/ALU1/SR_OUT_L has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /maintb/mainComponent/ALU1/SR_OUT_R has no driver.
+# This port will contribute value (U) to the signal network.
+run
+# ** Note: cpt :1
+#    Time: 0 ps  Iteration: 0  Instance: /maintb
+run
+# ** Note: cpt :2
+#    Time: 200 us  Iteration: 0  Instance: /maintb
+run
+run
+# ** Note: cpt :3
+#    Time: 400 us  Iteration: 0  Instance: /maintb
+run
+run
+# ** Note: cpt :4
+#    Time: 600 us  Iteration: 0  Instance: /maintb
+run
+run
+# ** Note: cpt :5
+#    Time: 800 us  Iteration: 0  Instance: /maintb
+run
+run
+# ** Note: cpt :6
+#    Time: 1 ms  Iteration: 0  Instance: /maintb
+run
+run
+# ** Note: cpt :7
+#    Time: 1200 us  Iteration: 0  Instance: /maintb
+run
+run
+# ** Note: cpt :8
+#    Time: 1400 us  Iteration: 0  Instance: /maintb
+run
+run
+# ** Note: cpt :9
+#    Time: 1600 us  Iteration: 0  Instance: /maintb
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.maintb(maintb_arch)
+# ** Warning: (vsim-8683) Uninitialized out port /maintb/mainComponent/ALU1/SR_OUT_L has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /maintb/mainComponent/ALU1/SR_OUT_R has no driver.
+# This port will contribute value (U) to the signal network.
+run -all
+# ** Note: cpt :1
+#    Time: 0 ps  Iteration: 0  Instance: /maintb
+# ** Note: cpt :2
+#    Time: 200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :3
+#    Time: 400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :4
+#    Time: 600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :5
+#    Time: 800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :6
+#    Time: 1 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :7
+#    Time: 1200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :8
+#    Time: 1400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :9
+#    Time: 1600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :10
+#    Time: 1800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :11
+#    Time: 2 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :12
+#    Time: 2200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :13
+#    Time: 2400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :14
+#    Time: 2600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :15
+#    Time: 2800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :16
+#    Time: 3 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :17
+#    Time: 3200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :18
+#    Time: 3400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :19
+#    Time: 3600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :20
+#    Time: 3800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :21
+#    Time: 4 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :22
+#    Time: 4200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :23
+#    Time: 4400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :24
+#    Time: 4600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :25
+#    Time: 4800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :26
+#    Time: 5 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :27
+#    Time: 5200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :28
+#    Time: 5400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :29
+#    Time: 5600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :30
+#    Time: 5800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :31
+#    Time: 6 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :32
+#    Time: 6200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :33
+#    Time: 6400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :34
+#    Time: 6600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :35
+#    Time: 6800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :36
+#    Time: 7 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :37
+#    Time: 7200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :38
+#    Time: 7400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :39
+#    Time: 7600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :40
+#    Time: 7800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :41
+#    Time: 8 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :42
+#    Time: 8200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :43
+#    Time: 8400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :44
+#    Time: 8600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :45
+#    Time: 8800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :46
+#    Time: 9 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :47
+#    Time: 9200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :48
+#    Time: 9400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :49
+#    Time: 9600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :50
+#    Time: 9800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :51
+#    Time: 10 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :52
+#    Time: 10200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :53
+#    Time: 10400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :54
+#    Time: 10600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :55
+#    Time: 10800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :56
+#    Time: 11 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :57
+#    Time: 11200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :58
+#    Time: 11400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :59
+#    Time: 11600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :60
+#    Time: 11800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :61
+#    Time: 12 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :62
+#    Time: 12200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :63
+#    Time: 12400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :64
+#    Time: 12600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :65
+#    Time: 12800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :66
+#    Time: 13 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :67
+#    Time: 13200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :68
+#    Time: 13400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :69
+#    Time: 13600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :70
+#    Time: 13800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :71
+#    Time: 14 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :72
+#    Time: 14200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :73
+#    Time: 14400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :74
+#    Time: 14600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :75
+#    Time: 14800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :76
+#    Time: 15 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :77
+#    Time: 15200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :78
+#    Time: 15400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :79
+#    Time: 15600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :80
+#    Time: 15800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :81
+#    Time: 16 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :82
+#    Time: 16200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :83
+#    Time: 16400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :84
+#    Time: 16600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :85
+#    Time: 16800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :86
+#    Time: 17 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :87
+#    Time: 17200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :88
+#    Time: 17400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :89
+#    Time: 17600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :90
+#    Time: 17800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :91
+#    Time: 18 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :92
+#    Time: 18200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :93
+#    Time: 18400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :94
+#    Time: 18600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :95
+#    Time: 18800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :96
+#    Time: 19 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :97
+#    Time: 19200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :98
+#    Time: 19400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :99
+#    Time: 19600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :100
+#    Time: 19800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :101
+#    Time: 20 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :102
+#    Time: 20200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :103
+#    Time: 20400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :104
+#    Time: 20600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :105
+#    Time: 20800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :106
+#    Time: 21 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :107
+#    Time: 21200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :108
+#    Time: 21400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :109
+#    Time: 21600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :110
+#    Time: 21800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :111
+#    Time: 22 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :112
+#    Time: 22200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :113
+#    Time: 22400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :114
+#    Time: 22600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :115
+#    Time: 22800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :116
+#    Time: 23 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :117
+#    Time: 23200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :118
+#    Time: 23400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :119
+#    Time: 23600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :120
+#    Time: 23800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :121
+#    Time: 24 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :122
+#    Time: 24200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :123
+#    Time: 24400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :124
+#    Time: 24600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :125
+#    Time: 24800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :126
+#    Time: 25 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :127
+#    Time: 25200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :128
+#    Time: 25400 us  Iteration: 0  Instance: /maintb
+# ** Fatal: (vsim-3421) Value 128 is out of range 0 to 127.
+#    Time: 25500 us  Iteration: 1  Process: /maintb/mainComponent/MEM_INSTRUCTIONS1/line__151 File: ./MEM_INSTRUCTIONS.vhd Line: 157
+# Fatal error in Process line__151 at ./MEM_INSTRUCTIONS.vhd line 157
+# 
+# HDL call sequence:
+# Stopped at ./MEM_INSTRUCTIONS.vhd 157 Process line__151
+# 
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.maintb(maintb_arch)
+# ** Warning: (vsim-8683) Uninitialized out port /maintb/mainComponent/ALU1/SR_OUT_L has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /maintb/mainComponent/ALU1/SR_OUT_R has no driver.
+# This port will contribute value (U) to the signal network.
+run -all
+# ** Note: cpt :1
+#    Time: 0 ps  Iteration: 0  Instance: /maintb
+# ** Note: cpt :2
+#    Time: 200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :3
+#    Time: 400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :4
+#    Time: 600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :5
+#    Time: 800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :6
+#    Time: 1 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :7
+#    Time: 1200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :8
+#    Time: 1400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :9
+#    Time: 1600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :10
+#    Time: 1800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :11
+#    Time: 2 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :12
+#    Time: 2200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :13
+#    Time: 2400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :14
+#    Time: 2600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :15
+#    Time: 2800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :16
+#    Time: 3 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :17
+#    Time: 3200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :18
+#    Time: 3400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :19
+#    Time: 3600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :20
+#    Time: 3800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :21
+#    Time: 4 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :22
+#    Time: 4200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :23
+#    Time: 4400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :24
+#    Time: 4600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :25
+#    Time: 4800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :26
+#    Time: 5 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :27
+#    Time: 5200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :28
+#    Time: 5400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :29
+#    Time: 5600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :30
+#    Time: 5800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :31
+#    Time: 6 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :32
+#    Time: 6200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :33
+#    Time: 6400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :34
+#    Time: 6600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :35
+#    Time: 6800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :36
+#    Time: 7 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :37
+#    Time: 7200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :38
+#    Time: 7400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :39
+#    Time: 7600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :40
+#    Time: 7800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :41
+#    Time: 8 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :42
+#    Time: 8200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :43
+#    Time: 8400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :44
+#    Time: 8600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :45
+#    Time: 8800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :46
+#    Time: 9 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :47
+#    Time: 9200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :48
+#    Time: 9400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :49
+#    Time: 9600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :50
+#    Time: 9800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :51
+#    Time: 10 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :52
+#    Time: 10200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :53
+#    Time: 10400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :54
+#    Time: 10600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :55
+#    Time: 10800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :56
+#    Time: 11 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :57
+#    Time: 11200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :58
+#    Time: 11400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :59
+#    Time: 11600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :60
+#    Time: 11800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :61
+#    Time: 12 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :62
+#    Time: 12200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :63
+#    Time: 12400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :64
+#    Time: 12600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :65
+#    Time: 12800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :66
+#    Time: 13 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :67
+#    Time: 13200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :68
+#    Time: 13400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :69
+#    Time: 13600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :70
+#    Time: 13800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :71
+#    Time: 14 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :72
+#    Time: 14200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :73
+#    Time: 14400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :74
+#    Time: 14600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :75
+#    Time: 14800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :76
+#    Time: 15 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :77
+#    Time: 15200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :78
+#    Time: 15400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :79
+#    Time: 15600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :80
+#    Time: 15800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :81
+#    Time: 16 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :82
+#    Time: 16200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :83
+#    Time: 16400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :84
+#    Time: 16600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :85
+#    Time: 16800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :86
+#    Time: 17 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :87
+#    Time: 17200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :88
+#    Time: 17400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :89
+#    Time: 17600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :90
+#    Time: 17800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :91
+#    Time: 18 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :92
+#    Time: 18200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :93
+#    Time: 18400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :94
+#    Time: 18600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :95
+#    Time: 18800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :96
+#    Time: 19 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :97
+#    Time: 19200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :98
+#    Time: 19400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :99
+#    Time: 19600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :100
+#    Time: 19800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :101
+#    Time: 20 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :102
+#    Time: 20200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :103
+#    Time: 20400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :104
+#    Time: 20600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :105
+#    Time: 20800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :106
+#    Time: 21 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :107
+#    Time: 21200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :108
+#    Time: 21400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :109
+#    Time: 21600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :110
+#    Time: 21800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :111
+#    Time: 22 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :112
+#    Time: 22200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :113
+#    Time: 22400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :114
+#    Time: 22600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :115
+#    Time: 22800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :116
+#    Time: 23 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :117
+#    Time: 23200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :118
+#    Time: 23400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :119
+#    Time: 23600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :120
+#    Time: 23800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :121
+#    Time: 24 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :122
+#    Time: 24200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :123
+#    Time: 24400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :124
+#    Time: 24600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :125
+#    Time: 24800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :126
+#    Time: 25 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :127
+#    Time: 25200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :128
+#    Time: 25400 us  Iteration: 0  Instance: /maintb
+# ** Fatal: (vsim-3421) Value 128 is out of range 0 to 127.
+#    Time: 25500 us  Iteration: 1  Process: /maintb/mainComponent/MEM_INSTRUCTIONS1/line__151 File: ./MEM_INSTRUCTIONS.vhd Line: 157
+# Fatal error in Process line__151 at ./MEM_INSTRUCTIONS.vhd line 157
+# 
+# HDL call sequence:
+# Stopped at ./MEM_INSTRUCTIONS.vhd 157 Process line__151
+# 
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.mem_instructions(mem_instructions_arch)
+# ** Warning: (vsim-8683) Uninitialized out port /maintb/mainComponent/ALU1/SR_OUT_L has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /maintb/mainComponent/ALU1/SR_OUT_R has no driver.
+# This port will contribute value (U) to the signal network.
+run -all
+# ** Note: cpt :1
+#    Time: 0 ps  Iteration: 0  Instance: /maintb
+# ** Note: cpt :2
+#    Time: 200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :3
+#    Time: 400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :4
+#    Time: 600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :5
+#    Time: 800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :6
+#    Time: 1 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :7
+#    Time: 1200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :8
+#    Time: 1400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :9
+#    Time: 1600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :10
+#    Time: 1800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :11
+#    Time: 2 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :12
+#    Time: 2200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :13
+#    Time: 2400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :14
+#    Time: 2600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :15
+#    Time: 2800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :16
+#    Time: 3 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :17
+#    Time: 3200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :18
+#    Time: 3400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :19
+#    Time: 3600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :20
+#    Time: 3800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :21
+#    Time: 4 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :22
+#    Time: 4200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :23
+#    Time: 4400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :24
+#    Time: 4600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :25
+#    Time: 4800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :26
+#    Time: 5 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :27
+#    Time: 5200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :28
+#    Time: 5400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :29
+#    Time: 5600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :30
+#    Time: 5800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :31
+#    Time: 6 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :32
+#    Time: 6200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :33
+#    Time: 6400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :34
+#    Time: 6600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :35
+#    Time: 6800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :36
+#    Time: 7 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :37
+#    Time: 7200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :38
+#    Time: 7400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :39
+#    Time: 7600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :40
+#    Time: 7800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :41
+#    Time: 8 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :42
+#    Time: 8200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :43
+#    Time: 8400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :44
+#    Time: 8600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :45
+#    Time: 8800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :46
+#    Time: 9 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :47
+#    Time: 9200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :48
+#    Time: 9400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :49
+#    Time: 9600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :50
+#    Time: 9800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :51
+#    Time: 10 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :52
+#    Time: 10200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :53
+#    Time: 10400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :54
+#    Time: 10600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :55
+#    Time: 10800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :56
+#    Time: 11 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :57
+#    Time: 11200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :58
+#    Time: 11400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :59
+#    Time: 11600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :60
+#    Time: 11800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :61
+#    Time: 12 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :62
+#    Time: 12200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :63
+#    Time: 12400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :64
+#    Time: 12600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :65
+#    Time: 12800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :66
+#    Time: 13 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :67
+#    Time: 13200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :68
+#    Time: 13400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :69
+#    Time: 13600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :70
+#    Time: 13800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :71
+#    Time: 14 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :72
+#    Time: 14200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :73
+#    Time: 14400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :74
+#    Time: 14600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :75
+#    Time: 14800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :76
+#    Time: 15 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :77
+#    Time: 15200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :78
+#    Time: 15400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :79
+#    Time: 15600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :80
+#    Time: 15800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :81
+#    Time: 16 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :82
+#    Time: 16200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :83
+#    Time: 16400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :84
+#    Time: 16600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :85
+#    Time: 16800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :86
+#    Time: 17 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :87
+#    Time: 17200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :88
+#    Time: 17400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :89
+#    Time: 17600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :90
+#    Time: 17800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :91
+#    Time: 18 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :92
+#    Time: 18200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :93
+#    Time: 18400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :94
+#    Time: 18600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :95
+#    Time: 18800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :96
+#    Time: 19 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :97
+#    Time: 19200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :98
+#    Time: 19400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :99
+#    Time: 19600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :100
+#    Time: 19800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :101
+#    Time: 20 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :102
+#    Time: 20200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :103
+#    Time: 20400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :104
+#    Time: 20600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :105
+#    Time: 20800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :106
+#    Time: 21 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :107
+#    Time: 21200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :108
+#    Time: 21400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :109
+#    Time: 21600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :110
+#    Time: 21800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :111
+#    Time: 22 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :112
+#    Time: 22200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :113
+#    Time: 22400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :114
+#    Time: 22600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :115
+#    Time: 22800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :116
+#    Time: 23 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :117
+#    Time: 23200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :118
+#    Time: 23400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :119
+#    Time: 23600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :120
+#    Time: 23800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :121
+#    Time: 24 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :122
+#    Time: 24200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :123
+#    Time: 24400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :124
+#    Time: 24600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :125
+#    Time: 24800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :126
+#    Time: 25 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :127
+#    Time: 25200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :128
+#    Time: 25400 us  Iteration: 0  Instance: /maintb
+# ** Fatal: (vsim-3421) Value 128 is out of range 0 to 127.
+#    Time: 25500 us  Iteration: 1  Process: /maintb/mainComponent/MEM_INSTRUCTIONS1/line__151 File: ./MEM_INSTRUCTIONS.vhd Line: 157
+# Fatal error in Process line__151 at ./MEM_INSTRUCTIONS.vhd line 157
+# 
+# HDL call sequence:
+# Stopped at ./MEM_INSTRUCTIONS.vhd 157 Process line__151
+# 
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.maintb(maintb_arch)
+# ** Warning: (vsim-8683) Uninitialized out port /maintb/mainComponent/ALU1/SR_OUT_L has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /maintb/mainComponent/ALU1/SR_OUT_R has no driver.
+# This port will contribute value (U) to the signal network.
+run -all
+# ** Note: cpt :1
+#    Time: 0 ps  Iteration: 0  Instance: /maintb
+# ** Note: cpt :2
+#    Time: 200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :3
+#    Time: 400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :4
+#    Time: 600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :5
+#    Time: 800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :6
+#    Time: 1 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :7
+#    Time: 1200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :8
+#    Time: 1400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :9
+#    Time: 1600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :10
+#    Time: 1800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :11
+#    Time: 2 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :12
+#    Time: 2200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :13
+#    Time: 2400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :14
+#    Time: 2600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :15
+#    Time: 2800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :16
+#    Time: 3 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :17
+#    Time: 3200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :18
+#    Time: 3400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :19
+#    Time: 3600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :20
+#    Time: 3800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :21
+#    Time: 4 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :22
+#    Time: 4200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :23
+#    Time: 4400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :24
+#    Time: 4600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :25
+#    Time: 4800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :26
+#    Time: 5 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :27
+#    Time: 5200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :28
+#    Time: 5400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :29
+#    Time: 5600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :30
+#    Time: 5800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :31
+#    Time: 6 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :32
+#    Time: 6200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :33
+#    Time: 6400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :34
+#    Time: 6600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :35
+#    Time: 6800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :36
+#    Time: 7 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :37
+#    Time: 7200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :38
+#    Time: 7400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :39
+#    Time: 7600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :40
+#    Time: 7800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :41
+#    Time: 8 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :42
+#    Time: 8200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :43
+#    Time: 8400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :44
+#    Time: 8600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :45
+#    Time: 8800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :46
+#    Time: 9 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :47
+#    Time: 9200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :48
+#    Time: 9400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :49
+#    Time: 9600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :50
+#    Time: 9800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :51
+#    Time: 10 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :52
+#    Time: 10200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :53
+#    Time: 10400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :54
+#    Time: 10600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :55
+#    Time: 10800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :56
+#    Time: 11 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :57
+#    Time: 11200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :58
+#    Time: 11400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :59
+#    Time: 11600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :60
+#    Time: 11800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :61
+#    Time: 12 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :62
+#    Time: 12200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :63
+#    Time: 12400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :64
+#    Time: 12600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :65
+#    Time: 12800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :66
+#    Time: 13 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :67
+#    Time: 13200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :68
+#    Time: 13400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :69
+#    Time: 13600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :70
+#    Time: 13800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :71
+#    Time: 14 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :72
+#    Time: 14200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :73
+#    Time: 14400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :74
+#    Time: 14600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :75
+#    Time: 14800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :76
+#    Time: 15 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :77
+#    Time: 15200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :78
+#    Time: 15400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :79
+#    Time: 15600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :80
+#    Time: 15800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :81
+#    Time: 16 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :82
+#    Time: 16200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :83
+#    Time: 16400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :84
+#    Time: 16600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :85
+#    Time: 16800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :86
+#    Time: 17 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :87
+#    Time: 17200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :88
+#    Time: 17400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :89
+#    Time: 17600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :90
+#    Time: 17800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :91
+#    Time: 18 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :92
+#    Time: 18200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :93
+#    Time: 18400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :94
+#    Time: 18600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :95
+#    Time: 18800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :96
+#    Time: 19 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :97
+#    Time: 19200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :98
+#    Time: 19400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :99
+#    Time: 19600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :100
+#    Time: 19800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :101
+#    Time: 20 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :102
+#    Time: 20200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :103
+#    Time: 20400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :104
+#    Time: 20600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :105
+#    Time: 20800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :106
+#    Time: 21 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :107
+#    Time: 21200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :108
+#    Time: 21400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :109
+#    Time: 21600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :110
+#    Time: 21800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :111
+#    Time: 22 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :112
+#    Time: 22200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :113
+#    Time: 22400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :114
+#    Time: 22600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :115
+#    Time: 22800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :116
+#    Time: 23 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :117
+#    Time: 23200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :118
+#    Time: 23400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :119
+#    Time: 23600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :120
+#    Time: 23800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :121
+#    Time: 24 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :122
+#    Time: 24200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :123
+#    Time: 24400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :124
+#    Time: 24600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :125
+#    Time: 24800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :126
+#    Time: 25 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :127
+#    Time: 25200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :128
+#    Time: 25400 us  Iteration: 0  Instance: /maintb
+# ** Fatal: (vsim-3421) Value 128 is out of range 0 to 127.
+#    Time: 25500 us  Iteration: 1  Process: /maintb/mainComponent/MEM_INSTRUCTIONS1/line__151 File: ./MEM_INSTRUCTIONS.vhd Line: 157
+# Fatal error in Process line__151 at ./MEM_INSTRUCTIONS.vhd line 157
+# 
+# HDL call sequence:
+# Stopped at ./MEM_INSTRUCTIONS.vhd 157 Process line__151
+# 
+add wave -position insertpoint sim:/maintb/mainComponent/ALU1/MEM_CACHE2/*
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.maintb(maintb_arch)
+# Loading work.mem_instructions(mem_instructions_arch)
+# ** Warning: (vsim-8683) Uninitialized out port /maintb/mainComponent/ALU1/SR_OUT_L has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /maintb/mainComponent/ALU1/SR_OUT_R has no driver.
+# This port will contribute value (U) to the signal network.
+run -all
+# ** Note: cpt :1
+#    Time: 0 ps  Iteration: 0  Instance: /maintb
+# ** Note: cpt :2
+#    Time: 200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :3
+#    Time: 400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :4
+#    Time: 600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :5
+#    Time: 800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :6
+#    Time: 1 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :7
+#    Time: 1200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :8
+#    Time: 1400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :9
+#    Time: 1600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :10
+#    Time: 1800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :11
+#    Time: 2 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :12
+#    Time: 2200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :13
+#    Time: 2400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :14
+#    Time: 2600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :15
+#    Time: 2800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :16
+#    Time: 3 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :17
+#    Time: 3200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :18
+#    Time: 3400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :19
+#    Time: 3600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :20
+#    Time: 3800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :21
+#    Time: 4 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :22
+#    Time: 4200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :23
+#    Time: 4400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :24
+#    Time: 4600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :25
+#    Time: 4800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :26
+#    Time: 5 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :27
+#    Time: 5200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :28
+#    Time: 5400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :29
+#    Time: 5600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :30
+#    Time: 5800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :31
+#    Time: 6 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :32
+#    Time: 6200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :33
+#    Time: 6400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :34
+#    Time: 6600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :35
+#    Time: 6800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :36
+#    Time: 7 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :37
+#    Time: 7200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :38
+#    Time: 7400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :39
+#    Time: 7600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :40
+#    Time: 7800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :41
+#    Time: 8 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :42
+#    Time: 8200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :43
+#    Time: 8400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :44
+#    Time: 8600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :45
+#    Time: 8800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :46
+#    Time: 9 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :47
+#    Time: 9200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :48
+#    Time: 9400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :49
+#    Time: 9600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :50
+#    Time: 9800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :51
+#    Time: 10 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :52
+#    Time: 10200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :53
+#    Time: 10400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :54
+#    Time: 10600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :55
+#    Time: 10800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :56
+#    Time: 11 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :57
+#    Time: 11200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :58
+#    Time: 11400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :59
+#    Time: 11600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :60
+#    Time: 11800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :61
+#    Time: 12 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :62
+#    Time: 12200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :63
+#    Time: 12400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :64
+#    Time: 12600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :65
+#    Time: 12800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :66
+#    Time: 13 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :67
+#    Time: 13200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :68
+#    Time: 13400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :69
+#    Time: 13600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :70
+#    Time: 13800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :71
+#    Time: 14 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :72
+#    Time: 14200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :73
+#    Time: 14400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :74
+#    Time: 14600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :75
+#    Time: 14800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :76
+#    Time: 15 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :77
+#    Time: 15200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :78
+#    Time: 15400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :79
+#    Time: 15600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :80
+#    Time: 15800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :81
+#    Time: 16 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :82
+#    Time: 16200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :83
+#    Time: 16400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :84
+#    Time: 16600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :85
+#    Time: 16800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :86
+#    Time: 17 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :87
+#    Time: 17200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :88
+#    Time: 17400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :89
+#    Time: 17600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :90
+#    Time: 17800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :91
+#    Time: 18 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :92
+#    Time: 18200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :93
+#    Time: 18400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :94
+#    Time: 18600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :95
+#    Time: 18800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :96
+#    Time: 19 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :97
+#    Time: 19200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :98
+#    Time: 19400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :99
+#    Time: 19600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :100
+#    Time: 19800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :101
+#    Time: 20 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :102
+#    Time: 20200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :103
+#    Time: 20400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :104
+#    Time: 20600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :105
+#    Time: 20800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :106
+#    Time: 21 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :107
+#    Time: 21200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :108
+#    Time: 21400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :109
+#    Time: 21600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :110
+#    Time: 21800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :111
+#    Time: 22 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :112
+#    Time: 22200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :113
+#    Time: 22400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :114
+#    Time: 22600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :115
+#    Time: 22800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :116
+#    Time: 23 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :117
+#    Time: 23200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :118
+#    Time: 23400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :119
+#    Time: 23600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :120
+#    Time: 23800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :121
+#    Time: 24 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :122
+#    Time: 24200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :123
+#    Time: 24400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :124
+#    Time: 24600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :125
+#    Time: 24800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :126
+#    Time: 25 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :127
+#    Time: 25200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :128
+#    Time: 25400 us  Iteration: 0  Instance: /maintb
+# ** Fatal: (vsim-3421) Value 128 is out of range 0 to 127.
+#    Time: 25500 us  Iteration: 1  Process: /maintb/mainComponent/MEM_INSTRUCTIONS1/line__151 File: ./MEM_INSTRUCTIONS.vhd Line: 157
+# Fatal error in Process line__151 at ./MEM_INSTRUCTIONS.vhd line 157
+# 
+# HDL call sequence:
+# Stopped at ./MEM_INSTRUCTIONS.vhd 157 Process line__151
+# 
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.mem_instructions(mem_instructions_arch)
+# ** Warning: (vsim-8683) Uninitialized out port /maintb/mainComponent/ALU1/SR_OUT_L has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /maintb/mainComponent/ALU1/SR_OUT_R has no driver.
+# This port will contribute value (U) to the signal network.
+run -all
+# ** Note: cpt :1
+#    Time: 0 ps  Iteration: 0  Instance: /maintb
+# ** Note: cpt :2
+#    Time: 200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :3
+#    Time: 400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :4
+#    Time: 600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :5
+#    Time: 800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :6
+#    Time: 1 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :7
+#    Time: 1200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :8
+#    Time: 1400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :9
+#    Time: 1600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :10
+#    Time: 1800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :11
+#    Time: 2 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :12
+#    Time: 2200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :13
+#    Time: 2400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :14
+#    Time: 2600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :15
+#    Time: 2800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :16
+#    Time: 3 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :17
+#    Time: 3200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :18
+#    Time: 3400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :19
+#    Time: 3600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :20
+#    Time: 3800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :21
+#    Time: 4 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :22
+#    Time: 4200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :23
+#    Time: 4400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :24
+#    Time: 4600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :25
+#    Time: 4800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :26
+#    Time: 5 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :27
+#    Time: 5200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :28
+#    Time: 5400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :29
+#    Time: 5600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :30
+#    Time: 5800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :31
+#    Time: 6 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :32
+#    Time: 6200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :33
+#    Time: 6400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :34
+#    Time: 6600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :35
+#    Time: 6800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :36
+#    Time: 7 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :37
+#    Time: 7200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :38
+#    Time: 7400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :39
+#    Time: 7600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :40
+#    Time: 7800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :41
+#    Time: 8 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :42
+#    Time: 8200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :43
+#    Time: 8400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :44
+#    Time: 8600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :45
+#    Time: 8800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :46
+#    Time: 9 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :47
+#    Time: 9200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :48
+#    Time: 9400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :49
+#    Time: 9600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :50
+#    Time: 9800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :51
+#    Time: 10 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :52
+#    Time: 10200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :53
+#    Time: 10400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :54
+#    Time: 10600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :55
+#    Time: 10800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :56
+#    Time: 11 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :57
+#    Time: 11200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :58
+#    Time: 11400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :59
+#    Time: 11600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :60
+#    Time: 11800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :61
+#    Time: 12 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :62
+#    Time: 12200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :63
+#    Time: 12400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :64
+#    Time: 12600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :65
+#    Time: 12800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :66
+#    Time: 13 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :67
+#    Time: 13200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :68
+#    Time: 13400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :69
+#    Time: 13600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :70
+#    Time: 13800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :71
+#    Time: 14 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :72
+#    Time: 14200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :73
+#    Time: 14400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :74
+#    Time: 14600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :75
+#    Time: 14800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :76
+#    Time: 15 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :77
+#    Time: 15200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :78
+#    Time: 15400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :79
+#    Time: 15600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :80
+#    Time: 15800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :81
+#    Time: 16 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :82
+#    Time: 16200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :83
+#    Time: 16400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :84
+#    Time: 16600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :85
+#    Time: 16800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :86
+#    Time: 17 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :87
+#    Time: 17200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :88
+#    Time: 17400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :89
+#    Time: 17600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :90
+#    Time: 17800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :91
+#    Time: 18 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :92
+#    Time: 18200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :93
+#    Time: 18400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :94
+#    Time: 18600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :95
+#    Time: 18800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :96
+#    Time: 19 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :97
+#    Time: 19200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :98
+#    Time: 19400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :99
+#    Time: 19600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :100
+#    Time: 19800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :101
+#    Time: 20 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :102
+#    Time: 20200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :103
+#    Time: 20400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :104
+#    Time: 20600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :105
+#    Time: 20800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :106
+#    Time: 21 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :107
+#    Time: 21200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :108
+#    Time: 21400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :109
+#    Time: 21600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :110
+#    Time: 21800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :111
+#    Time: 22 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :112
+#    Time: 22200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :113
+#    Time: 22400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :114
+#    Time: 22600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :115
+#    Time: 22800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :116
+#    Time: 23 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :117
+#    Time: 23200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :118
+#    Time: 23400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :119
+#    Time: 23600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :120
+#    Time: 23800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :121
+#    Time: 24 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :122
+#    Time: 24200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :123
+#    Time: 24400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :124
+#    Time: 24600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :125
+#    Time: 24800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :126
+#    Time: 25 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :127
+#    Time: 25200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :128
+#    Time: 25400 us  Iteration: 0  Instance: /maintb
+# ** Fatal: (vsim-3421) Value 128 is out of range 0 to 127.
+#    Time: 25500 us  Iteration: 1  Process: /maintb/mainComponent/MEM_INSTRUCTIONS1/line__151 File: ./MEM_INSTRUCTIONS.vhd Line: 157
+# Fatal error in Process line__151 at ./MEM_INSTRUCTIONS.vhd line 157
+# 
+# HDL call sequence:
+# Stopped at ./MEM_INSTRUCTIONS.vhd 157 Process line__151
+# 
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.mem_instructions(mem_instructions_arch)
+# ** Warning: (vsim-8683) Uninitialized out port /maintb/mainComponent/ALU1/SR_OUT_L has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /maintb/mainComponent/ALU1/SR_OUT_R has no driver.
+# This port will contribute value (U) to the signal network.
+run
+# ** Note: cpt :1
+#    Time: 0 ps  Iteration: 0  Instance: /maintb
+run -all
+# ** Note: cpt :2
+#    Time: 200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :3
+#    Time: 400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :4
+#    Time: 600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :5
+#    Time: 800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :6
+#    Time: 1 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :7
+#    Time: 1200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :8
+#    Time: 1400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :9
+#    Time: 1600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :10
+#    Time: 1800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :11
+#    Time: 2 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :12
+#    Time: 2200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :13
+#    Time: 2400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :14
+#    Time: 2600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :15
+#    Time: 2800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :16
+#    Time: 3 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :17
+#    Time: 3200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :18
+#    Time: 3400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :19
+#    Time: 3600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :20
+#    Time: 3800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :21
+#    Time: 4 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :22
+#    Time: 4200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :23
+#    Time: 4400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :24
+#    Time: 4600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :25
+#    Time: 4800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :26
+#    Time: 5 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :27
+#    Time: 5200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :28
+#    Time: 5400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :29
+#    Time: 5600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :30
+#    Time: 5800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :31
+#    Time: 6 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :32
+#    Time: 6200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :33
+#    Time: 6400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :34
+#    Time: 6600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :35
+#    Time: 6800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :36
+#    Time: 7 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :37
+#    Time: 7200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :38
+#    Time: 7400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :39
+#    Time: 7600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :40
+#    Time: 7800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :41
+#    Time: 8 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :42
+#    Time: 8200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :43
+#    Time: 8400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :44
+#    Time: 8600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :45
+#    Time: 8800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :46
+#    Time: 9 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :47
+#    Time: 9200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :48
+#    Time: 9400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :49
+#    Time: 9600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :50
+#    Time: 9800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :51
+#    Time: 10 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :52
+#    Time: 10200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :53
+#    Time: 10400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :54
+#    Time: 10600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :55
+#    Time: 10800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :56
+#    Time: 11 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :57
+#    Time: 11200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :58
+#    Time: 11400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :59
+#    Time: 11600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :60
+#    Time: 11800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :61
+#    Time: 12 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :62
+#    Time: 12200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :63
+#    Time: 12400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :64
+#    Time: 12600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :65
+#    Time: 12800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :66
+#    Time: 13 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :67
+#    Time: 13200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :68
+#    Time: 13400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :69
+#    Time: 13600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :70
+#    Time: 13800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :71
+#    Time: 14 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :72
+#    Time: 14200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :73
+#    Time: 14400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :74
+#    Time: 14600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :75
+#    Time: 14800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :76
+#    Time: 15 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :77
+#    Time: 15200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :78
+#    Time: 15400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :79
+#    Time: 15600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :80
+#    Time: 15800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :81
+#    Time: 16 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :82
+#    Time: 16200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :83
+#    Time: 16400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :84
+#    Time: 16600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :85
+#    Time: 16800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :86
+#    Time: 17 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :87
+#    Time: 17200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :88
+#    Time: 17400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :89
+#    Time: 17600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :90
+#    Time: 17800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :91
+#    Time: 18 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :92
+#    Time: 18200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :93
+#    Time: 18400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :94
+#    Time: 18600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :95
+#    Time: 18800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :96
+#    Time: 19 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :97
+#    Time: 19200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :98
+#    Time: 19400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :99
+#    Time: 19600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :100
+#    Time: 19800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :101
+#    Time: 20 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :102
+#    Time: 20200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :103
+#    Time: 20400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :104
+#    Time: 20600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :105
+#    Time: 20800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :106
+#    Time: 21 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :107
+#    Time: 21200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :108
+#    Time: 21400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :109
+#    Time: 21600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :110
+#    Time: 21800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :111
+#    Time: 22 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :112
+#    Time: 22200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :113
+#    Time: 22400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :114
+#    Time: 22600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :115
+#    Time: 22800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :116
+#    Time: 23 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :117
+#    Time: 23200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :118
+#    Time: 23400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :119
+#    Time: 23600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :120
+#    Time: 23800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :121
+#    Time: 24 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :122
+#    Time: 24200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :123
+#    Time: 24400 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :124
+#    Time: 24600 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :125
+#    Time: 24800 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :126
+#    Time: 25 ms  Iteration: 0  Instance: /maintb
+# ** Note: cpt :127
+#    Time: 25200 us  Iteration: 0  Instance: /maintb
+# ** Note: cpt :128
+#    Time: 25400 us  Iteration: 0  Instance: /maintb
+# ** Fatal: (vsim-3421) Value 128 is out of range 0 to 127.
+#    Time: 25500 us  Iteration: 1  Process: /maintb/mainComponent/MEM_INSTRUCTIONS1/line__151 File: ./MEM_INSTRUCTIONS.vhd Line: 157
+# Fatal error in Process line__151 at ./MEM_INSTRUCTIONS.vhd line 157
+# 
+# HDL call sequence:
+# Stopped at ./MEM_INSTRUCTIONS.vhd 157 Process line__151
+# 
