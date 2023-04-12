@@ -117,8 +117,8 @@ begin
         );
     mya <= Buffer_A_P.s;
     myb <= Buffer_B_P.s;
-    mySR_IN_R <= SR_IN_R_BUFFER_P.s;
-    mySR_IN_L <= SR_IN_L_BUFFER_P.s;
+    mySR_IN_R <= SR_IN_R_BUFFER_P.s(0);
+    mySR_IN_L <= SR_IN_L_BUFFER_P.s(0);
     process(Clock)
     begin
         if rising_edge(Clock) then

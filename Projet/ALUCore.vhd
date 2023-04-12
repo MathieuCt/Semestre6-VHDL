@@ -68,7 +68,7 @@ begin
                 My_s <= resize(My_a xor My_b, 8);
             when "1110" => 
                 if SR_IN_R = '1' then
-                    My_s <= resize(My_a + My_b, 8);
+                    My_s <= resize(My_a + My_b + "0001", 8);
                 else
                     My_s <= resize(My_a + My_b, 8);
                 end if;
