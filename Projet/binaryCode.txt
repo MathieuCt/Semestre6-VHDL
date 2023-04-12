@@ -1,4 +1,6 @@
 Ce fichier contient les instruction binaires pour initialiser la mémoire d'instruction pour chaque programme demandé.
+Attention, il faut laisser une première ligne à 0000000000 car celle-ci n'est pas traitée correctement (décalage avec les buffer).
+Les programmes doivent être copiés ligne par ligne dans la mémoire d'instruction.
 
 Fonction 1 : RES_OUT_1 = (A mult. B)
 0000111100 Charger A dans buffer A
