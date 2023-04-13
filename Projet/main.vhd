@@ -60,9 +60,7 @@ architecture main_arch of main is
     signal MEM_SEL_FCT_P : bufferPortType(e(3 downto 0),s(3 downto 0));
     signal MEM_SEL_OUT_P : bufferPortType(e(1 downto 0),s(1 downto 0));
     signal mySEL_ROUTE : std_logic_vector(3 downto 0);
-    signal invClock : std_logic;
     begin
-        invClock <= not Clock;
         MEM_INSTRUCTIONS1 : MEM_INSTRUCTIONS
         port map(
             Clock => Clock,

@@ -19,7 +19,7 @@ architecture MEM_INSTRUCTIONS_Arch of MEM_INSTRUCTIONS is
     signal pt : integer range 0 to 127 := 0 ;
     constant MEM_INSTRUCTIONS: mem := (
         ("0000000000"),
-        ("0000111100"),
+        ("1100001100"),
         ("0000011100"),
         ("1011000011"),
         ("0000100000"),

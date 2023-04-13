@@ -28,11 +28,10 @@ end MCU_PRJ_2022_TopLevel;
 
 architecture Behavioral of MCU_PRJ_2022_TopLevel is
     component ALUCore is
-        generic(N : integer);
         port(
-            a, b: in signed(N-1 downto 0);
+            a, b: in std_logic_vector(3 downto 0);
             sel: in std_logic_vector(3 downto 0);
-            s : out signed(2*N-1 downto 0) := (others => '0');
+            s : out std_logic_vector(7 downto 0) := (others => '0');
             SR_IN_R : in std_logic;
             SR_IN_L : in std_logic;
             SR_OUT_R : out std_logic := '0';
