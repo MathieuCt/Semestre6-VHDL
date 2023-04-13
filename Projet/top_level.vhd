@@ -63,7 +63,6 @@ begin
     --Traitement des leds non utilisées
     led0_b <= '0';
     led1_r <= '0'; led1_b <= '0';
-    led2_r <= '0'; led2_b <= '0';
-    led3_r <= '0'; led3_b <= '0';
+    led2_r <= '0'; led2_b <= '0'; led3_b <= '0';
 
 end Behavioral;
